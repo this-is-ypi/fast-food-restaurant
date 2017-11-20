@@ -16,6 +16,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Represents restaurant. At initializing it creates
+ * queue of Cashiers and initializes line of Clients
+ * (creates object of RestaurantLine).
+*/
 public class Restaurant {
 
     private static final Logger LOGGER = LogManager.getLogger();
@@ -47,6 +52,13 @@ public class Restaurant {
         initLine();
     }
 
+    /**
+     * Creates Thread of RestaurantLine and executes it.
+     * In parallel of line thread this method starts
+     * executing of CashierTasks.
+     * Method ends it's execution on WORKING_TIME expired.
+     * @throws RestaurantException
+     */
     public void startRestaurant() throws RestaurantException {
         LOGGER.info("Restaurant opens.");
         long startTime = System.currentTimeMillis();
