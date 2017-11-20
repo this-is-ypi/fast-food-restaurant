@@ -1,0 +1,1818 @@
+2017-11-20 16:13:59.069 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:13:59.073 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:13:59.074 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:13:59.074 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:13:59.074 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:13:59.074 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:13:59.074 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:13:59.074 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:13:59.074 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:13:59.075 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:13:59.075 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:13:59.075 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:13:59.075 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:13:59.076 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:13:59.208 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:13:59.208 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:13:59.208 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 16:13:59.209 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:13:59.229 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:13:59.229 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:13:59.229 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 16:13:59.230 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:13:59.286 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:13:59.286 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:13:59.286 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 4
+2017-11-20 16:13:59.287 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:13:59.333 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:13:59.333 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:13:59.333 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 6
+2017-11-20 16:13:59.333 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:13:59.436 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:13:59.436 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:13:59.472 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:13:59.472 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:13:59.488 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:13:59.488 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:14:01.172 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:20:51.718 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:20:51.723 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:20:51.724 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:20:51.724 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:20:51.724 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:20:51.724 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:20:51.724 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:20:51.724 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:20:51.725 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:20:51.725 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:20:51.726 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:20:51.725 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:20:51.726 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:20:51.726 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:20:51.876 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:20:51.876 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:20:51.876 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 16:20:51.877 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:20:51.954 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:20:51.954 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:20:51.954 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 16:20:51.955 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:20:51.968 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:20:51.968 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:20:51.968 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 4
+2017-11-20 16:20:51.969 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:20:52.038 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:20:52.038 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:20:52.038 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 6
+2017-11-20 16:20:52.038 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:20:52.105 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:20:52.105 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:20:52.177 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:20:52.177 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:20:52.239 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:20:52.239 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:20:53.821 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:21:00.015 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:21:00.019 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:21:00.020 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:21:00.020 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:21:00.020 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:21:00.020 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:21:00.020 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:21:00.021 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:21:00.021 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:21:00.021 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:21:00.021 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:21:00.021 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:21:00.022 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:21:00.022 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:21:00.051 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:21:00.051 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:21:00.051 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 16:21:00.052 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:21:00.055 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:21:00.055 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 2
+2017-11-20 16:21:00.055 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:21:00.056 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:21:00.092 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:21:00.092 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:21:00.092 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 4
+2017-11-20 16:21:00.092 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:21:00.102 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:21:00.102 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:21:00.102 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 6
+2017-11-20 16:21:00.102 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:21:00.128 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:21:00.128 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:21:00.189 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:21:00.189 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:21:00.379 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:21:00.379 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:21:02.118 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:21:05.179 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:21:05.183 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:21:05.184 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:21:05.184 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:21:05.184 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:21:05.184 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:21:05.185 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:21:05.185 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:21:05.185 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:21:05.185 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:21:05.185 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:21:05.185 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:21:05.186 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:21:05.186 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:21:05.207 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:21:05.207 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:21:05.207 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 7
+2017-11-20 16:21:05.208 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:21:05.328 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:21:05.328 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:21:05.328 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 16:21:05.329 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:21:05.332 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:21:05.332 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 4
+2017-11-20 16:21:05.332 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:21:05.333 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:21:05.362 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:21:05.362 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:21:05.362 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 6
+2017-11-20 16:21:05.362 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:21:05.493 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:21:05.493 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:21:05.551 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:21:05.551 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:21:05.576 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:21:05.576 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:21:07.282 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:24:26.123 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:24:26.127 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:24:26.127 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:24:26.128 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:24:26.128 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:24:26.128 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:24:26.128 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:24:26.128 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:24:26.128 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:24:26.129 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:24:26.129 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:24:26.129 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:24:26.129 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:24:26.130 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:24:26.218 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:24:26.218 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:24:26.218 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 7
+2017-11-20 16:24:26.218 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:24:26.239 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:24:26.239 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:24:26.239 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 2
+2017-11-20 16:24:26.240 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:24:26.264 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:24:26.264 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:24:26.264 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 16:24:26.265 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:24:26.291 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:24:26.291 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:24:26.291 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 6
+2017-11-20 16:24:26.291 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:24:26.352 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:24:26.352 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:24:26.479 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:24:26.479 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:24:26.577 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:24:26.577 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:24:28.225 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:24:32.252 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:24:32.256 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:24:32.257 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:24:32.257 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:24:32.257 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:24:32.257 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:24:32.257 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:24:32.258 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:24:32.258 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:24:32.258 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:24:32.259 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:24:32.259 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:24:32.259 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:24:32.259 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:24:32.281 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:24:32.281 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:24:32.281 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 7
+2017-11-20 16:24:32.281 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:24:32.300 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:24:32.300 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:24:32.300 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 16:24:32.300 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:24:32.353 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:24:32.353 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:24:32.353 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 4
+2017-11-20 16:24:32.353 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:24:32.493 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:24:32.493 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:24:32.493 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 6
+2017-11-20 16:24:32.493 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:24:32.537 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:24:32.537 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:24:32.546 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:24:32.546 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:24:32.576 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:24:32.577 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:24:34.355 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:27:58.609 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:27:58.613 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:27:58.614 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:27:58.614 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:27:58.614 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:27:58.614 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:27:58.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:27:58.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:27:58.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:27:58.615 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:27:58.616 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:27:58.616 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:27:58.616 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:27:58.617 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:27:58.718 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:27:58.718 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:27:58.718 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 7
+2017-11-20 16:27:58.719 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:27:58.743 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:27:58.743 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:27:58.743 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 2
+2017-11-20 16:27:58.744 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:27:58.745 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:27:58.745 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:27:58.745 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 16:27:58.745 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:27:58.767 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:27:58.767 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:27:58.767 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 6
+2017-11-20 16:27:58.767 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:27:58.770 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:27:58.770 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:27:58.993 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:27:58.993 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:27:59.052 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:27:59.052 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:28:00.711 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:29:55.347 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:29:55.351 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:29:55.351 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:29:55.351 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:29:55.351 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:29:55.351 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:29:55.352 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:29:55.352 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:29:55.352 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:29:55.353 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:29:55.353 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:29:55.353 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:29:55.353 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:29:55.353 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:29:55.425 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:29:55.425 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:29:55.425 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 16:29:55.425 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:29:55.480 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:29:55.480 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:29:55.480 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 16:29:55.480 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:29:55.526 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:29:55.526 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:29:55.526 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 4
+2017-11-20 16:29:55.526 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:29:55.529 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:29:55.529 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:29:55.529 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 6
+2017-11-20 16:29:55.529 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:29:55.741 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:29:55.741 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:29:55.807 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:29:55.807 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:29:55.829 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:29:55.829 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:29:57.449 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:31:32.801 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:31:32.805 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:31:32.806 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:31:32.806 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:31:32.806 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:31:32.806 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:31:32.807 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:31:32.807 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:31:32.807 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:31:32.807 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:31:32.808 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:31:32.808 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:32.808 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:32.808 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:32.917 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:31:32.917 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:32.917 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 7
+2017-11-20 16:31:32.918 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:32.945 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:31:32.945 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:32.946 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 2
+2017-11-20 16:31:32.946 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:32.994 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:31:32.994 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:32.994 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 4
+2017-11-20 16:31:32.994 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:33.034 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:31:33.034 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:33.034 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 6
+2017-11-20 16:31:33.034 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:33.054 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:31:33.054 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:33.156 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:31:33.156 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:33.264 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:31:33.264 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:34.904 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:31:37.307 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:31:37.311 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:31:37.312 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:31:37.312 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:31:37.312 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:31:37.312 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:31:37.312 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:31:37.312 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:31:37.313 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:31:37.313 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:31:37.313 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:31:37.313 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:37.314 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:37.314 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:37.319 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:31:37.319 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:37.319 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 7
+2017-11-20 16:31:37.320 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:37.354 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:31:37.354 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:37.354 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 16:31:37.354 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:37.424 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:31:37.424 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:37.424 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 4
+2017-11-20 16:31:37.425 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:37.449 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:31:37.449 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:37.449 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 6
+2017-11-20 16:31:37.449 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:37.514 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:31:37.514 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:37.618 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:31:37.618 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:37.700 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:31:37.700 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:39.410 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:31:41.809 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:31:41.814 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:31:41.815 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:31:41.815 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:31:41.815 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:31:41.815 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:31:41.816 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:31:41.816 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:31:41.816 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:31:41.816 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:31:41.816 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:31:41.816 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:41.817 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:41.817 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:41.897 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:31:41.897 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:41.897 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 7
+2017-11-20 16:31:41.898 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:41.962 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:31:41.962 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:41.962 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 2
+2017-11-20 16:31:41.963 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:41.969 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:31:41.969 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:41.969 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 16:31:41.969 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:42.005 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:31:42.005 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:42.005 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 6
+2017-11-20 16:31:42.006 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:42.055 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:31:42.055 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:42.132 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:31:42.132 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:42.212 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:31:42.212 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:43.912 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:31:46.163 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:31:46.167 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:31:46.167 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:31:46.167 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:31:46.167 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 16:31:46.168 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 16:31:46.168 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 16:31:46.168 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:31:46.168 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:31:46.169 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:31:46.169 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 16:31:46.169 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:46.169 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:46.170 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:46.259 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:31:46.259 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:46.259 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 7
+2017-11-20 16:31:46.259 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:31:46.280 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:31:46.280 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:46.280 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 16:31:46.280 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:46.362 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:31:46.362 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:46.362 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 16:31:46.362 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:31:46.447 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:31:46.447 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:46.447 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 6
+2017-11-20 16:31:46.448 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:31:46.465 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:31:46.465 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:31:46.491 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:31:46.491 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:31:46.538 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:31:46.538 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:31:48.265 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 16:32:45.373 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 16:32:45.378 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 16:32:45.378 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 16:32:45.378 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3  comes to restaurant.
+2017-11-20 16:32:45.378 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 16:32:45.379 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.379 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5  comes to restaurant.
+2017-11-20 16:32:45.379 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 16:32:45.379 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.379 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 16:32:45.379 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9  comes to restaurant.
+2017-11-20 16:32:45.380 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.380 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11  comes to restaurant.
+2017-11-20 16:32:45.380 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 16:32:45.380 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 12  comes to restaurant.
+2017-11-20 16:32:45.380 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:45.380 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 13 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.380 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 14  comes to restaurant.
+2017-11-20 16:32:45.381 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 15  comes to restaurant.
+2017-11-20 16:32:45.381 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 16:32:45.380 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:45.381 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 16 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.381 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 17  comes to restaurant.
+2017-11-20 16:32:45.381 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 18  comes to restaurant.
+2017-11-20 16:32:45.381 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:45.381 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 19 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.382 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 20  comes to restaurant.
+2017-11-20 16:32:45.382 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 21  comes to restaurant.
+2017-11-20 16:32:45.382 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 22 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.382 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 23  comes to restaurant.
+2017-11-20 16:32:45.382 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 24  comes to restaurant.
+2017-11-20 16:32:45.383 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 25 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.383 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 26  comes to restaurant.
+2017-11-20 16:32:45.383 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 27  comes to restaurant.
+2017-11-20 16:32:45.383 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 28 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.383 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 29  comes to restaurant.
+2017-11-20 16:32:45.384 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 30  comes to restaurant.
+2017-11-20 16:32:45.384 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 31 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.384 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 32  comes to restaurant.
+2017-11-20 16:32:45.384 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 33  comes to restaurant.
+2017-11-20 16:32:45.384 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 34 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.384 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 35  comes to restaurant.
+2017-11-20 16:32:45.385 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 36  comes to restaurant.
+2017-11-20 16:32:45.385 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 37 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.385 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 38  comes to restaurant.
+2017-11-20 16:32:45.385 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 39  comes to restaurant.
+2017-11-20 16:32:45.385 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 40 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.385 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 41  comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 42  comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 43 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 44  comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 45  comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 46 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 47  comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 48  comes to restaurant.
+2017-11-20 16:32:45.386 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 49 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.387 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 50  comes to restaurant.
+2017-11-20 16:32:45.387 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 51  comes to restaurant.
+2017-11-20 16:32:45.387 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 52 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.387 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 53  comes to restaurant.
+2017-11-20 16:32:45.387 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 54  comes to restaurant.
+2017-11-20 16:32:45.387 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 55 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.387 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 56  comes to restaurant.
+2017-11-20 16:32:45.388 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 57  comes to restaurant.
+2017-11-20 16:32:45.388 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 58 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.388 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 59  comes to restaurant.
+2017-11-20 16:32:45.388 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 60  comes to restaurant.
+2017-11-20 16:32:45.388 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 61 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.388 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 62  comes to restaurant.
+2017-11-20 16:32:45.388 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 63  comes to restaurant.
+2017-11-20 16:32:45.389 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 64 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.389 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 65  comes to restaurant.
+2017-11-20 16:32:45.389 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 66  comes to restaurant.
+2017-11-20 16:32:45.389 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 67 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.389 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 68  comes to restaurant.
+2017-11-20 16:32:45.390 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 69  comes to restaurant.
+2017-11-20 16:32:45.390 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 70 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.390 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 71  comes to restaurant.
+2017-11-20 16:32:45.390 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 72  comes to restaurant.
+2017-11-20 16:32:45.390 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 73 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.390 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 74  comes to restaurant.
+2017-11-20 16:32:45.390 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 75  comes to restaurant.
+2017-11-20 16:32:45.391 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 76 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.391 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 77  comes to restaurant.
+2017-11-20 16:32:45.391 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 78  comes to restaurant.
+2017-11-20 16:32:45.391 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 79 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.391 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 80  comes to restaurant.
+2017-11-20 16:32:45.391 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 81  comes to restaurant.
+2017-11-20 16:32:45.391 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 82 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 83  comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 84  comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 85 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 86  comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 87  comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 88 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 89  comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 90  comes to restaurant.
+2017-11-20 16:32:45.392 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 91 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 92  comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 93  comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 94 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 95  comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 96  comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 97 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 98  comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 99  comes to restaurant.
+2017-11-20 16:32:45.393 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 100 (preOrder) comes to restaurant.
+2017-11-20 16:32:45.411 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 16:32:45.411 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:45.411 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 10
+2017-11-20 16:32:45.411 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:45.509 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 16:32:45.509 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:45.509 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 13
+2017-11-20 16:32:45.509 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:45.523 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 16:32:45.523 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:45.523 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 16
+2017-11-20 16:32:45.523 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:45.576 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 13 leaves restaurant.
+2017-11-20 16:32:45.576 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:45.576 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 19
+2017-11-20 16:32:45.576 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:45.629 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 16:32:45.629 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:45.629 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 22
+2017-11-20 16:32:45.629 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:45.676 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 16 leaves restaurant.
+2017-11-20 16:32:45.676 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:45.676 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 25
+2017-11-20 16:32:45.677 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:45.733 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 25 leaves restaurant.
+2017-11-20 16:32:45.733 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:45.733 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 28
+2017-11-20 16:32:45.734 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:45.769 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 19 leaves restaurant.
+2017-11-20 16:32:45.769 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:45.769 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 31
+2017-11-20 16:32:45.769 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:45.896 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 22 leaves restaurant.
+2017-11-20 16:32:45.896 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:45.896 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 34
+2017-11-20 16:32:45.897 [pool-14-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:45.931 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 31 leaves restaurant.
+2017-11-20 16:32:45.931 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:45.931 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 37
+2017-11-20 16:32:45.931 [pool-15-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:45.965 [pool-14-thread-1] INFO  by.training.model.CashierTask - Client 34 leaves restaurant.
+2017-11-20 16:32:45.965 [pool-14-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:45.965 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 40
+2017-11-20 16:32:45.965 [pool-16-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:46.028 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 28 leaves restaurant.
+2017-11-20 16:32:46.028 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:46.028 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 43
+2017-11-20 16:32:46.028 [pool-17-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:46.044 [pool-16-thread-1] INFO  by.training.model.CashierTask - Client 40 leaves restaurant.
+2017-11-20 16:32:46.044 [pool-16-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:46.044 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 46
+2017-11-20 16:32:46.044 [pool-18-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:46.095 [pool-15-thread-1] INFO  by.training.model.CashierTask - Client 37 leaves restaurant.
+2017-11-20 16:32:46.095 [pool-15-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:46.095 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 49
+2017-11-20 16:32:46.095 [pool-19-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:46.185 [pool-17-thread-1] INFO  by.training.model.CashierTask - Client 43 leaves restaurant.
+2017-11-20 16:32:46.185 [pool-17-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:46.185 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 52
+2017-11-20 16:32:46.186 [pool-20-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:46.242 [pool-18-thread-1] INFO  by.training.model.CashierTask - Client 46 leaves restaurant.
+2017-11-20 16:32:46.242 [pool-18-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:46.242 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 55
+2017-11-20 16:32:46.242 [pool-21-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:46.255 [pool-19-thread-1] INFO  by.training.model.CashierTask - Client 49 leaves restaurant.
+2017-11-20 16:32:46.255 [pool-19-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:46.255 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 58
+2017-11-20 16:32:46.255 [pool-22-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:46.338 [pool-21-thread-1] INFO  by.training.model.CashierTask - Client 55 leaves restaurant.
+2017-11-20 16:32:46.338 [pool-21-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:46.338 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 61
+2017-11-20 16:32:46.338 [pool-23-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:46.339 [pool-20-thread-1] INFO  by.training.model.CashierTask - Client 52 leaves restaurant.
+2017-11-20 16:32:46.339 [pool-20-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:46.339 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 64
+2017-11-20 16:32:46.339 [pool-24-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:46.448 [pool-22-thread-1] INFO  by.training.model.CashierTask - Client 58 leaves restaurant.
+2017-11-20 16:32:46.448 [pool-22-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:46.448 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 67
+2017-11-20 16:32:46.448 [pool-25-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:46.630 [pool-24-thread-1] INFO  by.training.model.CashierTask - Client 64 leaves restaurant.
+2017-11-20 16:32:46.630 [pool-24-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:46.630 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 70
+2017-11-20 16:32:46.630 [pool-26-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:46.638 [pool-23-thread-1] INFO  by.training.model.CashierTask - Client 61 leaves restaurant.
+2017-11-20 16:32:46.638 [pool-23-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:46.638 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 73
+2017-11-20 16:32:46.638 [pool-27-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:46.645 [pool-27-thread-1] INFO  by.training.model.CashierTask - Client 73 leaves restaurant.
+2017-11-20 16:32:46.645 [pool-27-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:46.645 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 76
+2017-11-20 16:32:46.646 [pool-28-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:46.655 [pool-26-thread-1] INFO  by.training.model.CashierTask - Client 70 leaves restaurant.
+2017-11-20 16:32:46.655 [pool-26-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:46.655 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 79
+2017-11-20 16:32:46.655 [pool-29-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:46.742 [pool-25-thread-1] INFO  by.training.model.CashierTask - Client 67 leaves restaurant.
+2017-11-20 16:32:46.742 [pool-25-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:46.742 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 82
+2017-11-20 16:32:46.742 [pool-30-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:46.872 [pool-29-thread-1] INFO  by.training.model.CashierTask - Client 79 leaves restaurant.
+2017-11-20 16:32:46.872 [pool-29-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:46.872 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 85
+2017-11-20 16:32:46.872 [pool-31-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:46.932 [pool-28-thread-1] INFO  by.training.model.CashierTask - Client 76 leaves restaurant.
+2017-11-20 16:32:46.932 [pool-28-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:46.932 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 88
+2017-11-20 16:32:46.932 [pool-32-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:46.978 [pool-30-thread-1] INFO  by.training.model.CashierTask - Client 82 leaves restaurant.
+2017-11-20 16:32:46.978 [pool-30-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:46.978 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 91
+2017-11-20 16:32:46.978 [pool-33-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:46.995 [pool-33-thread-1] INFO  by.training.model.CashierTask - Client 91 leaves restaurant.
+2017-11-20 16:32:46.995 [pool-33-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:46.995 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 94
+2017-11-20 16:32:46.995 [pool-34-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:47.016 [pool-32-thread-1] INFO  by.training.model.CashierTask - Client 88 leaves restaurant.
+2017-11-20 16:32:47.016 [pool-32-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.016 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 97
+2017-11-20 16:32:47.016 [pool-35-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:47.058 [pool-34-thread-1] INFO  by.training.model.CashierTask - Client 94 leaves restaurant.
+2017-11-20 16:32:47.058 [pool-34-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:47.058 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 100
+2017-11-20 16:32:47.059 [pool-36-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:47.060 [pool-31-thread-1] INFO  by.training.model.CashierTask - Client 85 leaves restaurant.
+2017-11-20 16:32:47.060 [pool-31-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:47.060 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 2
+2017-11-20 16:32:47.060 [pool-37-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:47.141 [pool-35-thread-1] INFO  by.training.model.CashierTask - Client 97 leaves restaurant.
+2017-11-20 16:32:47.141 [pool-35-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.141 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 16:32:47.141 [pool-38-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:47.228 [pool-38-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 16:32:47.228 [pool-38-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.228 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 5
+2017-11-20 16:32:47.228 [pool-39-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:47.278 [pool-37-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 16:32:47.278 [pool-37-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:47.278 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 6
+2017-11-20 16:32:47.278 [pool-40-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:47.350 [pool-36-thread-1] INFO  by.training.model.CashierTask - Client 100 leaves restaurant.
+2017-11-20 16:32:47.350 [pool-36-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:47.350 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 8
+2017-11-20 16:32:47.351 [pool-41-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:47.437 [pool-40-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 16:32:47.437 [pool-40-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:47.437 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 9
+2017-11-20 16:32:47.438 [pool-42-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:47.503 [pool-39-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 16:32:47.503 [pool-39-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.503 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 11
+2017-11-20 16:32:47.504 [pool-43-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:47.513 [pool-41-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 16:32:47.513 [pool-41-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:47.513 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 12
+2017-11-20 16:32:47.514 [pool-44-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:47.604 [pool-44-thread-1] INFO  by.training.model.CashierTask - Client 12 leaves restaurant.
+2017-11-20 16:32:47.604 [pool-44-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:47.604 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 14
+2017-11-20 16:32:47.605 [pool-45-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:47.631 [pool-42-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 16:32:47.631 [pool-42-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:47.631 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 15
+2017-11-20 16:32:47.632 [pool-46-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:47.641 [pool-43-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 16:32:47.641 [pool-43-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.641 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 17
+2017-11-20 16:32:47.642 [pool-47-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:47.695 [pool-47-thread-1] INFO  by.training.model.CashierTask - Client 17 leaves restaurant.
+2017-11-20 16:32:47.695 [pool-47-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.695 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 18
+2017-11-20 16:32:47.695 [pool-48-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:47.730 [pool-46-thread-1] INFO  by.training.model.CashierTask - Client 15 leaves restaurant.
+2017-11-20 16:32:47.730 [pool-46-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:47.730 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 20
+2017-11-20 16:32:47.731 [pool-49-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:47.756 [pool-48-thread-1] INFO  by.training.model.CashierTask - Client 18 leaves restaurant.
+2017-11-20 16:32:47.756 [pool-48-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.756 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 21
+2017-11-20 16:32:47.757 [pool-50-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:47.760 [pool-45-thread-1] INFO  by.training.model.CashierTask - Client 14 leaves restaurant.
+2017-11-20 16:32:47.760 [pool-45-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:47.760 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 23
+2017-11-20 16:32:47.760 [pool-51-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:47.872 [pool-50-thread-1] INFO  by.training.model.CashierTask - Client 21 leaves restaurant.
+2017-11-20 16:32:47.872 [pool-50-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:47.872 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 24
+2017-11-20 16:32:47.873 [pool-52-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:48.000 [pool-49-thread-1] INFO  by.training.model.CashierTask - Client 20 leaves restaurant.
+2017-11-20 16:32:48.000 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 26
+2017-11-20 16:32:48.000 [pool-49-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.001 [pool-53-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.015 [pool-52-thread-1] INFO  by.training.model.CashierTask - Client 24 leaves restaurant.
+2017-11-20 16:32:48.015 [pool-52-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:48.015 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 27
+2017-11-20 16:32:48.015 [pool-54-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:48.032 [pool-51-thread-1] INFO  by.training.model.CashierTask - Client 23 leaves restaurant.
+2017-11-20 16:32:48.032 [pool-51-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:48.032 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 29
+2017-11-20 16:32:48.033 [pool-55-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:48.195 [pool-54-thread-1] INFO  by.training.model.CashierTask - Client 27 leaves restaurant.
+2017-11-20 16:32:48.195 [pool-54-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:48.195 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 30
+2017-11-20 16:32:48.196 [pool-56-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:48.210 [pool-55-thread-1] INFO  by.training.model.CashierTask - Client 29 leaves restaurant.
+2017-11-20 16:32:48.210 [pool-55-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:48.210 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 32
+2017-11-20 16:32:48.210 [pool-57-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:48.284 [pool-53-thread-1] INFO  by.training.model.CashierTask - Client 26 leaves restaurant.
+2017-11-20 16:32:48.284 [pool-53-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.284 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 33
+2017-11-20 16:32:48.284 [pool-58-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.294 [pool-56-thread-1] INFO  by.training.model.CashierTask - Client 30 leaves restaurant.
+2017-11-20 16:32:48.294 [pool-56-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:48.294 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 35
+2017-11-20 16:32:48.294 [pool-59-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:48.388 [pool-57-thread-1] INFO  by.training.model.CashierTask - Client 32 leaves restaurant.
+2017-11-20 16:32:48.388 [pool-57-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:48.388 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 36
+2017-11-20 16:32:48.388 [pool-60-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:48.435 [pool-60-thread-1] INFO  by.training.model.CashierTask - Client 36 leaves restaurant.
+2017-11-20 16:32:48.435 [pool-60-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:48.435 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 38
+2017-11-20 16:32:48.435 [pool-61-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:48.441 [pool-59-thread-1] INFO  by.training.model.CashierTask - Client 35 leaves restaurant.
+2017-11-20 16:32:48.441 [pool-59-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:48.441 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 39
+2017-11-20 16:32:48.442 [pool-62-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:48.517 [pool-58-thread-1] INFO  by.training.model.CashierTask - Client 33 leaves restaurant.
+2017-11-20 16:32:48.517 [pool-58-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.517 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 41
+2017-11-20 16:32:48.518 [pool-63-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.529 [pool-63-thread-1] INFO  by.training.model.CashierTask - Client 41 leaves restaurant.
+2017-11-20 16:32:48.529 [pool-63-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.529 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 42
+2017-11-20 16:32:48.529 [pool-64-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.616 [pool-62-thread-1] INFO  by.training.model.CashierTask - Client 39 leaves restaurant.
+2017-11-20 16:32:48.616 [pool-62-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:48.616 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 44
+2017-11-20 16:32:48.617 [pool-65-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:48.724 [pool-61-thread-1] INFO  by.training.model.CashierTask - Client 38 leaves restaurant.
+2017-11-20 16:32:48.724 [pool-61-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:48.724 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 45
+2017-11-20 16:32:48.724 [pool-66-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:48.734 [pool-64-thread-1] INFO  by.training.model.CashierTask - Client 42 leaves restaurant.
+2017-11-20 16:32:48.734 [pool-64-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.734 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 47
+2017-11-20 16:32:48.734 [pool-67-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.824 [pool-67-thread-1] INFO  by.training.model.CashierTask - Client 47 leaves restaurant.
+2017-11-20 16:32:48.824 [pool-67-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.824 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 48
+2017-11-20 16:32:48.825 [pool-68-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.841 [pool-65-thread-1] INFO  by.training.model.CashierTask - Client 44 leaves restaurant.
+2017-11-20 16:32:48.841 [pool-65-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:48.841 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 50
+2017-11-20 16:32:48.841 [pool-69-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:48.893 [pool-66-thread-1] INFO  by.training.model.CashierTask - Client 45 leaves restaurant.
+2017-11-20 16:32:48.893 [pool-66-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:48.893 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 51
+2017-11-20 16:32:48.894 [pool-70-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:48.913 [pool-68-thread-1] INFO  by.training.model.CashierTask - Client 48 leaves restaurant.
+2017-11-20 16:32:48.913 [pool-68-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.913 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 53
+2017-11-20 16:32:48.913 [pool-71-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.938 [pool-71-thread-1] INFO  by.training.model.CashierTask - Client 53 leaves restaurant.
+2017-11-20 16:32:48.938 [pool-71-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:48.938 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 54
+2017-11-20 16:32:48.939 [pool-72-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:48.943 [pool-70-thread-1] INFO  by.training.model.CashierTask - Client 51 leaves restaurant.
+2017-11-20 16:32:48.943 [pool-70-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:48.943 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 56
+2017-11-20 16:32:48.943 [pool-73-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:48.948 [pool-69-thread-1] INFO  by.training.model.CashierTask - Client 50 leaves restaurant.
+2017-11-20 16:32:48.948 [pool-69-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:48.948 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 57
+2017-11-20 16:32:48.949 [pool-74-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.042 [pool-73-thread-1] INFO  by.training.model.CashierTask - Client 56 leaves restaurant.
+2017-11-20 16:32:49.042 [pool-73-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:49.042 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 59
+2017-11-20 16:32:49.042 [pool-75-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:49.120 [pool-72-thread-1] INFO  by.training.model.CashierTask - Client 54 leaves restaurant.
+2017-11-20 16:32:49.120 [pool-72-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:49.120 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 60
+2017-11-20 16:32:49.120 [pool-76-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:49.243 [pool-74-thread-1] INFO  by.training.model.CashierTask - Client 57 leaves restaurant.
+2017-11-20 16:32:49.243 [pool-74-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.243 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 62
+2017-11-20 16:32:49.243 [pool-77-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.271 [pool-77-thread-1] INFO  by.training.model.CashierTask - Client 62 leaves restaurant.
+2017-11-20 16:32:49.271 [pool-77-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.271 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 63
+2017-11-20 16:32:49.271 [pool-78-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.326 [pool-75-thread-1] INFO  by.training.model.CashierTask - Client 59 leaves restaurant.
+2017-11-20 16:32:49.326 [pool-75-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:49.326 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 65
+2017-11-20 16:32:49.326 [pool-79-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:49.349 [pool-78-thread-1] INFO  by.training.model.CashierTask - Client 63 leaves restaurant.
+2017-11-20 16:32:49.349 [pool-78-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.349 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 66
+2017-11-20 16:32:49.349 [pool-80-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.371 [pool-76-thread-1] INFO  by.training.model.CashierTask - Client 60 leaves restaurant.
+2017-11-20 16:32:49.371 [pool-76-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:49.371 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 68
+2017-11-20 16:32:49.371 [pool-81-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:49.426 [pool-80-thread-1] INFO  by.training.model.CashierTask - Client 66 leaves restaurant.
+2017-11-20 16:32:49.426 [pool-80-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.426 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 69
+2017-11-20 16:32:49.426 [pool-82-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.468 [pool-81-thread-1] INFO  by.training.model.CashierTask - Client 68 leaves restaurant.
+2017-11-20 16:32:49.468 [pool-81-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:49.468 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 71
+2017-11-20 16:32:49.468 [pool-83-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:49.553 [pool-83-thread-1] INFO  by.training.model.CashierTask - Client 71 leaves restaurant.
+2017-11-20 16:32:49.553 [pool-83-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:49.553 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 72
+2017-11-20 16:32:49.553 [pool-84-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:49.588 [pool-79-thread-1] INFO  by.training.model.CashierTask - Client 65 leaves restaurant.
+2017-11-20 16:32:49.588 [pool-79-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:49.588 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 74
+2017-11-20 16:32:49.588 [pool-85-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:49.704 [pool-82-thread-1] INFO  by.training.model.CashierTask - Client 69 leaves restaurant.
+2017-11-20 16:32:49.704 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 75
+2017-11-20 16:32:49.704 [pool-82-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.705 [pool-85-thread-1] INFO  by.training.model.CashierTask - Client 74 leaves restaurant.
+2017-11-20 16:32:49.704 [pool-86-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.705 [pool-85-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:49.705 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 77
+2017-11-20 16:32:49.705 [pool-87-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:49.714 [pool-86-thread-1] INFO  by.training.model.CashierTask - Client 75 leaves restaurant.
+2017-11-20 16:32:49.714 [pool-86-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.714 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 78
+2017-11-20 16:32:49.714 [pool-88-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.723 [pool-88-thread-1] INFO  by.training.model.CashierTask - Client 78 leaves restaurant.
+2017-11-20 16:32:49.723 [pool-88-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.723 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 80
+2017-11-20 16:32:49.723 [pool-89-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.758 [pool-84-thread-1] INFO  by.training.model.CashierTask - Client 72 leaves restaurant.
+2017-11-20 16:32:49.758 [pool-84-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:49.758 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 81
+2017-11-20 16:32:49.758 [pool-90-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:49.805 [pool-89-thread-1] INFO  by.training.model.CashierTask - Client 80 leaves restaurant.
+2017-11-20 16:32:49.805 [pool-89-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:49.805 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 83
+2017-11-20 16:32:49.805 [pool-91-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:49.870 [pool-90-thread-1] INFO  by.training.model.CashierTask - Client 81 leaves restaurant.
+2017-11-20 16:32:49.870 [pool-90-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:49.870 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 84
+2017-11-20 16:32:49.870 [pool-92-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:49.948 [pool-87-thread-1] INFO  by.training.model.CashierTask - Client 77 leaves restaurant.
+2017-11-20 16:32:49.948 [pool-87-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:49.948 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 86
+2017-11-20 16:32:49.949 [pool-93-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:50.009 [pool-93-thread-1] INFO  by.training.model.CashierTask - Client 86 leaves restaurant.
+2017-11-20 16:32:50.009 [pool-93-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:50.009 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 87
+2017-11-20 16:32:50.009 [pool-94-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:50.015 [pool-92-thread-1] INFO  by.training.model.CashierTask - Client 84 leaves restaurant.
+2017-11-20 16:32:50.015 [pool-92-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:50.015 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 89
+2017-11-20 16:32:50.015 [pool-95-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:50.035 [pool-91-thread-1] INFO  by.training.model.CashierTask - Client 83 leaves restaurant.
+2017-11-20 16:32:50.035 [pool-91-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:50.035 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 90
+2017-11-20 16:32:50.036 [pool-96-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:50.266 [pool-94-thread-1] INFO  by.training.model.CashierTask - Client 87 leaves restaurant.
+2017-11-20 16:32:50.266 [pool-94-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:50.266 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 92
+2017-11-20 16:32:50.267 [pool-97-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:50.270 [pool-96-thread-1] INFO  by.training.model.CashierTask - Client 90 leaves restaurant.
+2017-11-20 16:32:50.270 [pool-96-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:50.270 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 93
+2017-11-20 16:32:50.270 [pool-98-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:50.273 [pool-95-thread-1] INFO  by.training.model.CashierTask - Client 89 leaves restaurant.
+2017-11-20 16:32:50.273 [pool-95-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:50.273 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 95
+2017-11-20 16:32:50.273 [pool-99-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:50.321 [pool-97-thread-1] INFO  by.training.model.CashierTask - Client 92 leaves restaurant.
+2017-11-20 16:32:50.321 [pool-97-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:50.321 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 96
+2017-11-20 16:32:50.321 [pool-100-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 16:32:50.511 [pool-99-thread-1] INFO  by.training.model.CashierTask - Client 95 leaves restaurant.
+2017-11-20 16:32:50.511 [pool-99-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:32:50.511 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 98
+2017-11-20 16:32:50.512 [pool-101-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 16:32:50.566 [pool-98-thread-1] INFO  by.training.model.CashierTask - Client 93 leaves restaurant.
+2017-11-20 16:32:50.566 [pool-98-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:50.566 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 99
+2017-11-20 16:32:50.566 [pool-102-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 16:32:50.608 [pool-102-thread-1] INFO  by.training.model.CashierTask - Client 99 leaves restaurant.
+2017-11-20 16:32:50.608 [pool-102-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 16:32:50.611 [pool-100-thread-1] INFO  by.training.model.CashierTask - Client 96 leaves restaurant.
+2017-11-20 16:32:50.611 [pool-100-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 16:32:50.742 [pool-101-thread-1] INFO  by.training.model.CashierTask - Client 98 leaves restaurant.
+2017-11-20 16:32:50.742 [pool-101-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 16:33:15.376 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:43:21.947 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:43:21.953 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:43:21.953 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:43:21.954 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3  comes to restaurant.
+2017-11-20 21:43:21.954 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 21:43:21.954 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.954 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5  comes to restaurant.
+2017-11-20 21:43:21.954 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:43:21.954 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.955 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:43:21.955 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9  comes to restaurant.
+2017-11-20 21:43:21.955 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.955 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11  comes to restaurant.
+2017-11-20 21:43:21.955 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 12  comes to restaurant.
+2017-11-20 21:43:21.956 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 13 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.956 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 14  comes to restaurant.
+2017-11-20 21:43:21.956 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 15  comes to restaurant.
+2017-11-20 21:43:21.956 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 21:43:21.956 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 16 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.956 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:21.956 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 17  comes to restaurant.
+2017-11-20 21:43:21.957 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 18  comes to restaurant.
+2017-11-20 21:43:21.957 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 21:43:21.957 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 19 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.957 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 20  comes to restaurant.
+2017-11-20 21:43:21.957 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:21.957 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 21  comes to restaurant.
+2017-11-20 21:43:21.957 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 22 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.958 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 23  comes to restaurant.
+2017-11-20 21:43:21.958 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:21.958 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 24  comes to restaurant.
+2017-11-20 21:43:21.958 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 25 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.958 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 26  comes to restaurant.
+2017-11-20 21:43:21.958 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 27  comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 28 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 29  comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 30  comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 31 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 32  comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 33  comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 34 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.959 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 35  comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 36  comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 37 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 38  comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 39  comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 40 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 41  comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 42  comes to restaurant.
+2017-11-20 21:43:21.960 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 43 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.961 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 44  comes to restaurant.
+2017-11-20 21:43:21.961 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 45  comes to restaurant.
+2017-11-20 21:43:21.961 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 46 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.961 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 47  comes to restaurant.
+2017-11-20 21:43:21.961 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 48  comes to restaurant.
+2017-11-20 21:43:21.961 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 49 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.961 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 50  comes to restaurant.
+2017-11-20 21:43:21.962 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 51  comes to restaurant.
+2017-11-20 21:43:21.962 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 52 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.962 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 53  comes to restaurant.
+2017-11-20 21:43:21.962 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 54  comes to restaurant.
+2017-11-20 21:43:21.962 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 55 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.963 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 56  comes to restaurant.
+2017-11-20 21:43:21.963 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 57  comes to restaurant.
+2017-11-20 21:43:21.963 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 58 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.963 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 59  comes to restaurant.
+2017-11-20 21:43:21.963 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 60  comes to restaurant.
+2017-11-20 21:43:21.964 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 61 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.964 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 62  comes to restaurant.
+2017-11-20 21:43:21.964 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 63  comes to restaurant.
+2017-11-20 21:43:21.964 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 64 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.964 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 65  comes to restaurant.
+2017-11-20 21:43:21.964 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 66  comes to restaurant.
+2017-11-20 21:43:21.964 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 67 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.965 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 68  comes to restaurant.
+2017-11-20 21:43:21.965 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 69  comes to restaurant.
+2017-11-20 21:43:21.965 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 70 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.965 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 71  comes to restaurant.
+2017-11-20 21:43:21.965 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 72  comes to restaurant.
+2017-11-20 21:43:21.965 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 73 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.966 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 74  comes to restaurant.
+2017-11-20 21:43:21.966 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 75  comes to restaurant.
+2017-11-20 21:43:21.966 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 76 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.966 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 77  comes to restaurant.
+2017-11-20 21:43:21.966 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 78  comes to restaurant.
+2017-11-20 21:43:21.966 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 79 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 80  comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 81  comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 82 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 83  comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 84  comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 85 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 86  comes to restaurant.
+2017-11-20 21:43:21.967 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 87  comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 88 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 89  comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 90  comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 91 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 92  comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 93  comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 94 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.968 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 95  comes to restaurant.
+2017-11-20 21:43:21.969 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 96  comes to restaurant.
+2017-11-20 21:43:21.969 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 97 (preOrder) comes to restaurant.
+2017-11-20 21:43:21.969 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 98  comes to restaurant.
+2017-11-20 21:43:21.969 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 99  comes to restaurant.
+2017-11-20 21:43:21.969 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 100 (preOrder) comes to restaurant.
+2017-11-20 21:43:22.009 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 21:43:22.009 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:22.009 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 10
+2017-11-20 21:43:22.009 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:22.067 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 21:43:22.067 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:22.067 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 13
+2017-11-20 21:43:22.067 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:22.183 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 21:43:22.183 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:22.183 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 16
+2017-11-20 21:43:22.184 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:22.279 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 21:43:22.279 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:22.279 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 19
+2017-11-20 21:43:22.279 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:22.297 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 13 leaves restaurant.
+2017-11-20 21:43:22.297 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:22.297 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 22
+2017-11-20 21:43:22.297 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:22.446 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 16 leaves restaurant.
+2017-11-20 21:43:22.446 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:22.446 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 25
+2017-11-20 21:43:22.446 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:22.466 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 22 leaves restaurant.
+2017-11-20 21:43:22.466 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:22.466 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 28
+2017-11-20 21:43:22.466 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:22.500 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 19 leaves restaurant.
+2017-11-20 21:43:22.500 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:22.500 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 31
+2017-11-20 21:43:22.500 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:22.541 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 28 leaves restaurant.
+2017-11-20 21:43:22.541 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:22.541 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 34
+2017-11-20 21:43:22.541 [pool-14-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:22.620 [pool-14-thread-1] INFO  by.training.model.CashierTask - Client 34 leaves restaurant.
+2017-11-20 21:43:22.620 [pool-14-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:22.620 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 37
+2017-11-20 21:43:22.620 [pool-15-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:22.716 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 25 leaves restaurant.
+2017-11-20 21:43:22.716 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:22.716 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 40
+2017-11-20 21:43:22.717 [pool-16-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:22.768 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 31 leaves restaurant.
+2017-11-20 21:43:22.768 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:22.768 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 43
+2017-11-20 21:43:22.768 [pool-17-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:22.830 [pool-15-thread-1] INFO  by.training.model.CashierTask - Client 37 leaves restaurant.
+2017-11-20 21:43:22.830 [pool-15-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:22.830 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 46
+2017-11-20 21:43:22.831 [pool-18-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:22.919 [pool-16-thread-1] INFO  by.training.model.CashierTask - Client 40 leaves restaurant.
+2017-11-20 21:43:22.919 [pool-16-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:22.919 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 49
+2017-11-20 21:43:22.920 [pool-19-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:22.942 [pool-17-thread-1] INFO  by.training.model.CashierTask - Client 43 leaves restaurant.
+2017-11-20 21:43:22.942 [pool-17-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:22.942 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 52
+2017-11-20 21:43:22.942 [pool-20-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:22.983 [pool-18-thread-1] INFO  by.training.model.CashierTask - Client 46 leaves restaurant.
+2017-11-20 21:43:22.983 [pool-18-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:22.983 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 55
+2017-11-20 21:43:22.983 [pool-21-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:23.028 [pool-19-thread-1] INFO  by.training.model.CashierTask - Client 49 leaves restaurant.
+2017-11-20 21:43:23.028 [pool-19-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:23.028 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 58
+2017-11-20 21:43:23.028 [pool-22-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:23.083 [pool-21-thread-1] INFO  by.training.model.CashierTask - Client 55 leaves restaurant.
+2017-11-20 21:43:23.083 [pool-21-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:23.083 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 61
+2017-11-20 21:43:23.083 [pool-23-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:23.151 [pool-20-thread-1] INFO  by.training.model.CashierTask - Client 52 leaves restaurant.
+2017-11-20 21:43:23.151 [pool-20-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:23.151 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 64
+2017-11-20 21:43:23.151 [pool-24-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:23.181 [pool-23-thread-1] INFO  by.training.model.CashierTask - Client 61 leaves restaurant.
+2017-11-20 21:43:23.181 [pool-23-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:23.181 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 67
+2017-11-20 21:43:23.181 [pool-25-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:23.194 [pool-22-thread-1] INFO  by.training.model.CashierTask - Client 58 leaves restaurant.
+2017-11-20 21:43:23.194 [pool-22-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:23.194 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 70
+2017-11-20 21:43:23.195 [pool-26-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:23.226 [pool-24-thread-1] INFO  by.training.model.CashierTask - Client 64 leaves restaurant.
+2017-11-20 21:43:23.226 [pool-24-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:23.226 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 73
+2017-11-20 21:43:23.227 [pool-27-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:23.333 [pool-26-thread-1] INFO  by.training.model.CashierTask - Client 70 leaves restaurant.
+2017-11-20 21:43:23.333 [pool-26-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:23.333 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 76
+2017-11-20 21:43:23.333 [pool-28-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:23.401 [pool-28-thread-1] INFO  by.training.model.CashierTask - Client 76 leaves restaurant.
+2017-11-20 21:43:23.401 [pool-28-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:23.401 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 79
+2017-11-20 21:43:23.401 [pool-29-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:23.465 [pool-25-thread-1] INFO  by.training.model.CashierTask - Client 67 leaves restaurant.
+2017-11-20 21:43:23.465 [pool-25-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:23.465 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 82
+2017-11-20 21:43:23.466 [pool-30-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:23.513 [pool-27-thread-1] INFO  by.training.model.CashierTask - Client 73 leaves restaurant.
+2017-11-20 21:43:23.513 [pool-27-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:23.513 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 85
+2017-11-20 21:43:23.514 [pool-31-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:23.576 [pool-31-thread-1] INFO  by.training.model.CashierTask - Client 85 leaves restaurant.
+2017-11-20 21:43:23.576 [pool-31-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:23.576 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 88
+2017-11-20 21:43:23.577 [pool-32-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:23.666 [pool-30-thread-1] INFO  by.training.model.CashierTask - Client 82 leaves restaurant.
+2017-11-20 21:43:23.666 [pool-30-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:23.666 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 91
+2017-11-20 21:43:23.667 [pool-33-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:23.697 [pool-29-thread-1] INFO  by.training.model.CashierTask - Client 79 leaves restaurant.
+2017-11-20 21:43:23.697 [pool-29-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:23.697 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 94
+2017-11-20 21:43:23.698 [pool-34-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:23.785 [pool-32-thread-1] INFO  by.training.model.CashierTask - Client 88 leaves restaurant.
+2017-11-20 21:43:23.785 [pool-32-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:23.785 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 97
+2017-11-20 21:43:23.785 [pool-35-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:23.881 [pool-33-thread-1] INFO  by.training.model.CashierTask - Client 91 leaves restaurant.
+2017-11-20 21:43:23.881 [pool-33-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:23.881 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 100
+2017-11-20 21:43:23.881 [pool-36-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:23.991 [pool-34-thread-1] INFO  by.training.model.CashierTask - Client 94 leaves restaurant.
+2017-11-20 21:43:23.991 [pool-34-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:23.991 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 2
+2017-11-20 21:43:23.991 [pool-37-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:24.040 [pool-36-thread-1] INFO  by.training.model.CashierTask - Client 100 leaves restaurant.
+2017-11-20 21:43:24.040 [pool-36-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.040 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 3
+2017-11-20 21:43:24.040 [pool-38-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.083 [pool-35-thread-1] INFO  by.training.model.CashierTask - Client 97 leaves restaurant.
+2017-11-20 21:43:24.083 [pool-35-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:24.083 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 5
+2017-11-20 21:43:24.083 [pool-39-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:24.111 [pool-38-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 21:43:24.111 [pool-38-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.111 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 6
+2017-11-20 21:43:24.112 [pool-40-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.134 [pool-39-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 21:43:24.134 [pool-39-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:24.134 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 8
+2017-11-20 21:43:24.135 [pool-41-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:24.160 [pool-40-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 21:43:24.160 [pool-40-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.160 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 9
+2017-11-20 21:43:24.160 [pool-42-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.165 [pool-42-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 21:43:24.165 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 11
+2017-11-20 21:43:24.165 [pool-42-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.165 [pool-43-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.232 [pool-37-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 21:43:24.232 [pool-37-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:24.232 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 12
+2017-11-20 21:43:24.232 [pool-44-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:24.353 [pool-43-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 21:43:24.353 [pool-43-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.353 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 14
+2017-11-20 21:43:24.353 [pool-45-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.364 [pool-45-thread-1] INFO  by.training.model.CashierTask - Client 14 leaves restaurant.
+2017-11-20 21:43:24.364 [pool-45-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.364 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 15
+2017-11-20 21:43:24.365 [pool-46-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.409 [pool-41-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 21:43:24.409 [pool-41-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:24.409 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 17
+2017-11-20 21:43:24.409 [pool-47-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:24.474 [pool-44-thread-1] INFO  by.training.model.CashierTask - Client 12 leaves restaurant.
+2017-11-20 21:43:24.474 [pool-44-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:24.474 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 18
+2017-11-20 21:43:24.474 [pool-48-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:24.509 [pool-46-thread-1] INFO  by.training.model.CashierTask - Client 15 leaves restaurant.
+2017-11-20 21:43:24.509 [pool-46-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.509 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 20
+2017-11-20 21:43:24.509 [pool-49-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.528 [pool-47-thread-1] INFO  by.training.model.CashierTask - Client 17 leaves restaurant.
+2017-11-20 21:43:24.528 [pool-47-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:24.528 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 21
+2017-11-20 21:43:24.529 [pool-50-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:24.531 [pool-48-thread-1] INFO  by.training.model.CashierTask - Client 18 leaves restaurant.
+2017-11-20 21:43:24.531 [pool-48-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:24.531 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 23
+2017-11-20 21:43:24.531 [pool-51-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:24.683 [pool-51-thread-1] INFO  by.training.model.CashierTask - Client 23 leaves restaurant.
+2017-11-20 21:43:24.683 [pool-51-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:24.683 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 24
+2017-11-20 21:43:24.684 [pool-52-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:24.727 [pool-49-thread-1] INFO  by.training.model.CashierTask - Client 20 leaves restaurant.
+2017-11-20 21:43:24.727 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 26
+2017-11-20 21:43:24.727 [pool-49-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.727 [pool-50-thread-1] INFO  by.training.model.CashierTask - Client 21 leaves restaurant.
+2017-11-20 21:43:24.727 [pool-50-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:24.727 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 27
+2017-11-20 21:43:24.727 [pool-53-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.727 [pool-54-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:24.775 [pool-52-thread-1] INFO  by.training.model.CashierTask - Client 24 leaves restaurant.
+2017-11-20 21:43:24.775 [pool-52-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:24.775 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 29
+2017-11-20 21:43:24.776 [pool-55-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:24.930 [pool-55-thread-1] INFO  by.training.model.CashierTask - Client 29 leaves restaurant.
+2017-11-20 21:43:24.930 [pool-55-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:24.930 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 30
+2017-11-20 21:43:24.930 [pool-56-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:24.968 [pool-53-thread-1] INFO  by.training.model.CashierTask - Client 26 leaves restaurant.
+2017-11-20 21:43:24.968 [pool-54-thread-1] INFO  by.training.model.CashierTask - Client 27 leaves restaurant.
+2017-11-20 21:43:24.968 [pool-53-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:24.968 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 32
+2017-11-20 21:43:24.968 [pool-54-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:24.968 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 33
+2017-11-20 21:43:24.968 [pool-57-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:24.968 [pool-58-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:25.138 [pool-56-thread-1] INFO  by.training.model.CashierTask - Client 30 leaves restaurant.
+2017-11-20 21:43:25.138 [pool-56-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:25.138 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 35
+2017-11-20 21:43:25.139 [pool-59-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:25.221 [pool-57-thread-1] INFO  by.training.model.CashierTask - Client 32 leaves restaurant.
+2017-11-20 21:43:25.221 [pool-57-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:25.221 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 36
+2017-11-20 21:43:25.221 [pool-60-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:25.242 [pool-59-thread-1] INFO  by.training.model.CashierTask - Client 35 leaves restaurant.
+2017-11-20 21:43:25.242 [pool-59-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:25.242 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 38
+2017-11-20 21:43:25.243 [pool-61-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:25.268 [pool-58-thread-1] INFO  by.training.model.CashierTask - Client 33 leaves restaurant.
+2017-11-20 21:43:25.268 [pool-58-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:25.268 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 39
+2017-11-20 21:43:25.269 [pool-62-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:25.359 [pool-61-thread-1] INFO  by.training.model.CashierTask - Client 38 leaves restaurant.
+2017-11-20 21:43:25.359 [pool-61-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:25.359 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 41
+2017-11-20 21:43:25.359 [pool-63-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:25.491 [pool-60-thread-1] INFO  by.training.model.CashierTask - Client 36 leaves restaurant.
+2017-11-20 21:43:25.491 [pool-60-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:25.491 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 42
+2017-11-20 21:43:25.492 [pool-64-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:25.507 [pool-64-thread-1] INFO  by.training.model.CashierTask - Client 42 leaves restaurant.
+2017-11-20 21:43:25.507 [pool-64-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:25.507 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 44
+2017-11-20 21:43:25.508 [pool-65-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:25.515 [pool-63-thread-1] INFO  by.training.model.CashierTask - Client 41 leaves restaurant.
+2017-11-20 21:43:25.515 [pool-63-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:25.515 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 45
+2017-11-20 21:43:25.515 [pool-66-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:25.549 [pool-62-thread-1] INFO  by.training.model.CashierTask - Client 39 leaves restaurant.
+2017-11-20 21:43:25.549 [pool-62-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:25.549 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 47
+2017-11-20 21:43:25.549 [pool-67-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:25.685 [pool-65-thread-1] INFO  by.training.model.CashierTask - Client 44 leaves restaurant.
+2017-11-20 21:43:25.685 [pool-65-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:25.685 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 48
+2017-11-20 21:43:25.685 [pool-68-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:25.813 [pool-66-thread-1] INFO  by.training.model.CashierTask - Client 45 leaves restaurant.
+2017-11-20 21:43:25.813 [pool-66-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:25.813 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 50
+2017-11-20 21:43:25.813 [pool-69-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:25.824 [pool-68-thread-1] INFO  by.training.model.CashierTask - Client 48 leaves restaurant.
+2017-11-20 21:43:25.824 [pool-68-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:25.824 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 51
+2017-11-20 21:43:25.824 [pool-70-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:25.848 [pool-67-thread-1] INFO  by.training.model.CashierTask - Client 47 leaves restaurant.
+2017-11-20 21:43:25.848 [pool-67-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:25.848 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 53
+2017-11-20 21:43:25.848 [pool-71-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:25.876 [pool-70-thread-1] INFO  by.training.model.CashierTask - Client 51 leaves restaurant.
+2017-11-20 21:43:25.876 [pool-70-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:25.876 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 54
+2017-11-20 21:43:25.876 [pool-72-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:25.917 [pool-69-thread-1] INFO  by.training.model.CashierTask - Client 50 leaves restaurant.
+2017-11-20 21:43:25.917 [pool-69-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:25.917 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 56
+2017-11-20 21:43:25.917 [pool-73-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:26.056 [pool-71-thread-1] INFO  by.training.model.CashierTask - Client 53 leaves restaurant.
+2017-11-20 21:43:26.056 [pool-71-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:26.056 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 57
+2017-11-20 21:43:26.056 [pool-74-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:26.074 [pool-72-thread-1] INFO  by.training.model.CashierTask - Client 54 leaves restaurant.
+2017-11-20 21:43:26.074 [pool-72-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:26.074 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 59
+2017-11-20 21:43:26.074 [pool-75-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:26.136 [pool-73-thread-1] INFO  by.training.model.CashierTask - Client 56 leaves restaurant.
+2017-11-20 21:43:26.136 [pool-73-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:26.136 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 60
+2017-11-20 21:43:26.137 [pool-76-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:26.191 [pool-74-thread-1] INFO  by.training.model.CashierTask - Client 57 leaves restaurant.
+2017-11-20 21:43:26.191 [pool-74-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:26.191 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 62
+2017-11-20 21:43:26.191 [pool-77-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:26.230 [pool-75-thread-1] INFO  by.training.model.CashierTask - Client 59 leaves restaurant.
+2017-11-20 21:43:26.230 [pool-75-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:26.230 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 63
+2017-11-20 21:43:26.231 [pool-78-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:26.336 [pool-78-thread-1] INFO  by.training.model.CashierTask - Client 63 leaves restaurant.
+2017-11-20 21:43:26.336 [pool-78-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:26.336 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 65
+2017-11-20 21:43:26.336 [pool-79-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:26.353 [pool-76-thread-1] INFO  by.training.model.CashierTask - Client 60 leaves restaurant.
+2017-11-20 21:43:26.353 [pool-76-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:26.353 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 66
+2017-11-20 21:43:26.354 [pool-80-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:26.449 [pool-77-thread-1] INFO  by.training.model.CashierTask - Client 62 leaves restaurant.
+2017-11-20 21:43:26.449 [pool-77-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:26.449 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 68
+2017-11-20 21:43:26.450 [pool-81-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:26.473 [pool-79-thread-1] INFO  by.training.model.CashierTask - Client 65 leaves restaurant.
+2017-11-20 21:43:26.473 [pool-79-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:26.473 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 69
+2017-11-20 21:43:26.474 [pool-82-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:26.552 [pool-81-thread-1] INFO  by.training.model.CashierTask - Client 68 leaves restaurant.
+2017-11-20 21:43:26.552 [pool-81-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:26.552 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 71
+2017-11-20 21:43:26.552 [pool-83-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:26.636 [pool-80-thread-1] INFO  by.training.model.CashierTask - Client 66 leaves restaurant.
+2017-11-20 21:43:26.636 [pool-80-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:26.636 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 72
+2017-11-20 21:43:26.636 [pool-84-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:26.702 [pool-83-thread-1] INFO  by.training.model.CashierTask - Client 71 leaves restaurant.
+2017-11-20 21:43:26.702 [pool-83-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:26.702 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 74
+2017-11-20 21:43:26.702 [pool-85-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:26.713 [pool-84-thread-1] INFO  by.training.model.CashierTask - Client 72 leaves restaurant.
+2017-11-20 21:43:26.713 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 75
+2017-11-20 21:43:26.713 [pool-84-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:26.713 [pool-86-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:26.715 [pool-85-thread-1] INFO  by.training.model.CashierTask - Client 74 leaves restaurant.
+2017-11-20 21:43:26.715 [pool-85-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:26.715 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 77
+2017-11-20 21:43:26.715 [pool-87-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:26.768 [pool-82-thread-1] INFO  by.training.model.CashierTask - Client 69 leaves restaurant.
+2017-11-20 21:43:26.768 [pool-82-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:26.768 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 78
+2017-11-20 21:43:26.768 [pool-88-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:26.785 [pool-87-thread-1] INFO  by.training.model.CashierTask - Client 77 leaves restaurant.
+2017-11-20 21:43:26.785 [pool-87-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:26.785 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 80
+2017-11-20 21:43:26.785 [pool-89-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:26.984 [pool-86-thread-1] INFO  by.training.model.CashierTask - Client 75 leaves restaurant.
+2017-11-20 21:43:26.984 [pool-86-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:26.984 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 81
+2017-11-20 21:43:26.985 [pool-90-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:27.026 [pool-89-thread-1] INFO  by.training.model.CashierTask - Client 80 leaves restaurant.
+2017-11-20 21:43:27.026 [pool-89-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:27.026 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 83
+2017-11-20 21:43:27.027 [pool-90-thread-1] INFO  by.training.model.CashierTask - Client 81 leaves restaurant.
+2017-11-20 21:43:27.027 [pool-90-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:27.027 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 84
+2017-11-20 21:43:27.027 [pool-91-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:27.027 [pool-92-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:27.048 [pool-88-thread-1] INFO  by.training.model.CashierTask - Client 78 leaves restaurant.
+2017-11-20 21:43:27.048 [pool-88-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:27.048 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 86
+2017-11-20 21:43:27.049 [pool-93-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:27.124 [pool-92-thread-1] INFO  by.training.model.CashierTask - Client 84 leaves restaurant.
+2017-11-20 21:43:27.124 [pool-92-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:27.124 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 87
+2017-11-20 21:43:27.124 [pool-94-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:27.141 [pool-94-thread-1] INFO  by.training.model.CashierTask - Client 87 leaves restaurant.
+2017-11-20 21:43:27.141 [pool-94-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:27.141 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 89
+2017-11-20 21:43:27.141 [pool-95-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:27.177 [pool-95-thread-1] INFO  by.training.model.CashierTask - Client 89 leaves restaurant.
+2017-11-20 21:43:27.177 [pool-95-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:27.177 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 90
+2017-11-20 21:43:27.177 [pool-96-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:27.253 [pool-91-thread-1] INFO  by.training.model.CashierTask - Client 83 leaves restaurant.
+2017-11-20 21:43:27.253 [pool-91-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:27.253 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 92
+2017-11-20 21:43:27.253 [pool-97-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:27.312 [pool-93-thread-1] INFO  by.training.model.CashierTask - Client 86 leaves restaurant.
+2017-11-20 21:43:27.312 [pool-93-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:27.312 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 93
+2017-11-20 21:43:27.312 [pool-98-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:27.395 [pool-96-thread-1] INFO  by.training.model.CashierTask - Client 90 leaves restaurant.
+2017-11-20 21:43:27.395 [pool-96-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:27.395 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 95
+2017-11-20 21:43:27.396 [pool-99-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:27.496 [pool-99-thread-1] INFO  by.training.model.CashierTask - Client 95 leaves restaurant.
+2017-11-20 21:43:27.496 [pool-99-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:27.496 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 96
+2017-11-20 21:43:27.496 [pool-100-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:43:27.504 [pool-97-thread-1] INFO  by.training.model.CashierTask - Client 92 leaves restaurant.
+2017-11-20 21:43:27.504 [pool-97-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:27.504 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 98
+2017-11-20 21:43:27.504 [pool-101-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:43:27.548 [pool-98-thread-1] INFO  by.training.model.CashierTask - Client 93 leaves restaurant.
+2017-11-20 21:43:27.548 [pool-98-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:27.548 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 99
+2017-11-20 21:43:27.548 [pool-102-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:43:27.697 [pool-101-thread-1] INFO  by.training.model.CashierTask - Client 98 leaves restaurant.
+2017-11-20 21:43:27.697 [pool-101-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:43:27.724 [pool-102-thread-1] INFO  by.training.model.CashierTask - Client 99 leaves restaurant.
+2017-11-20 21:43:27.724 [pool-102-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:43:27.773 [pool-100-thread-1] INFO  by.training.model.CashierTask - Client 96 leaves restaurant.
+2017-11-20 21:43:27.773 [pool-100-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:43:51.951 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:46:54.321 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:46:54.326 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:46:54.326 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:46:54.326 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 21:46:54.326 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3  comes to restaurant.
+2017-11-20 21:46:54.327 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4 (preOrder) comes to restaurant.
+2017-11-20 21:46:54.327 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5  comes to restaurant.
+2017-11-20 21:46:54.327 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:46:54.327 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 21:46:54.327 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:46:54.328 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9  comes to restaurant.
+2017-11-20 21:46:54.328 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10 (preOrder) comes to restaurant.
+2017-11-20 21:46:54.328 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11  comes to restaurant.
+2017-11-20 21:46:54.328 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 21:46:54.328 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 21:46:54.328 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:46:54.329 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:46:54.329 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:46:54.367 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 21:46:54.367 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:46:54.367 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 10
+2017-11-20 21:46:54.368 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:46:54.455 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 21:46:54.455 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:46:54.455 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 2
+2017-11-20 21:46:54.455 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:46:54.541 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 21:46:54.541 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:46:54.541 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 3
+2017-11-20 21:46:54.541 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:46:54.583 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 21:46:54.583 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:46:54.583 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 5
+2017-11-20 21:46:54.584 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:46:54.635 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 21:46:54.635 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:46:54.635 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 6
+2017-11-20 21:46:54.636 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:46:54.697 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 21:46:54.697 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:46:54.697 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 8
+2017-11-20 21:46:54.698 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:46:54.770 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 21:46:54.770 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:46:54.770 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 9
+2017-11-20 21:46:54.770 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:46:54.829 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 21:46:54.829 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:46:54.829 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 11
+2017-11-20 21:46:54.829 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:46:54.834 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 21:46:54.834 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:46:54.858 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 21:46:54.858 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:46:54.989 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 21:46:54.989 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:46:57.624 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:47:49.294 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:47:49.298 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:47:49.299 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:47:49.299 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3  comes to restaurant.
+2017-11-20 21:47:49.299 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 21:47:49.299 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 21:47:49.299 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5  comes to restaurant.
+2017-11-20 21:47:49.299 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:47:49.299 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7  comes to restaurant.
+2017-11-20 21:47:49.300 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:47:49.300 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9  comes to restaurant.
+2017-11-20 21:47:49.300 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10  comes to restaurant.
+2017-11-20 21:47:49.300 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11  comes to restaurant.
+2017-11-20 21:47:49.300 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 2
+2017-11-20 21:47:49.301 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 3
+2017-11-20 21:47:49.300 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:47:49.301 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:47:49.301 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:47:49.427 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 21:47:49.427 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:47:49.427 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 4
+2017-11-20 21:47:49.427 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:47:49.510 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 21:47:49.510 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:47:49.510 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 5
+2017-11-20 21:47:49.511 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:47:49.527 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 21:47:49.527 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:47:49.527 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 6
+2017-11-20 21:47:49.527 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:47:49.586 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 21:47:49.586 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:47:49.586 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 7
+2017-11-20 21:47:49.586 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:47:49.624 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 21:47:49.624 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:47:49.624 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 8
+2017-11-20 21:47:49.624 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:47:49.729 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 21:47:49.729 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:47:49.729 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 9
+2017-11-20 21:47:49.729 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:47:49.766 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 21:47:49.766 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:47:49.766 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 10
+2017-11-20 21:47:49.767 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:47:49.769 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 21:47:49.769 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:47:49.769 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 11
+2017-11-20 21:47:49.770 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:47:49.798 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 21:47:49.798 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:47:49.913 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 21:47:49.913 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:47:50.048 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 21:47:50.048 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:47:52.597 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:48:28.544 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:48:28.548 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:48:54.264 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:48:54.268 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:48:54.269 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:48:54.269 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3  comes to restaurant.
+2017-11-20 21:48:54.269 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4 (preOrder) comes to restaurant.
+2017-11-20 21:48:54.269 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5  comes to restaurant.
+2017-11-20 21:48:54.270 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:48:54.270 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 21:48:54.270 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:48:54.270 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9  comes to restaurant.
+2017-11-20 21:48:54.270 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10 (preOrder) comes to restaurant.
+2017-11-20 21:48:54.271 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11  comes to restaurant.
+2017-11-20 21:48:57.567 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:49:05.609 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:49:05.614 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:49:05.614 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:49:05.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3  comes to restaurant.
+2017-11-20 21:49:05.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4 (preOrder) comes to restaurant.
+2017-11-20 21:49:05.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5  comes to restaurant.
+2017-11-20 21:49:05.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:49:05.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 21:49:05.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:49:05.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9  comes to restaurant.
+2017-11-20 21:49:05.616 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10 (preOrder) comes to restaurant.
+2017-11-20 21:49:05.616 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11  comes to restaurant.
+2017-11-20 21:49:08.912 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:49:20.060 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:49:20.064 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:49:20.065 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:49:20.065 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 21:49:20.065 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3  comes to restaurant.
+2017-11-20 21:49:20.065 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4 (preOrder) comes to restaurant.
+2017-11-20 21:49:20.065 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5  comes to restaurant.
+2017-11-20 21:49:20.065 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:49:20.065 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 21:49:20.066 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:49:20.066 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9  comes to restaurant.
+2017-11-20 21:49:20.066 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10 (preOrder) comes to restaurant.
+2017-11-20 21:49:20.066 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11  comes to restaurant.
+2017-11-20 21:49:20.066 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 21:49:20.066 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:49:20.067 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 21:49:20.067 [main] INFO  by.training.model.Restaurant - Cashier 4 took Client 10
+2017-11-20 21:49:20.067 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:49:20.067 [main] INFO  by.training.model.Restaurant - Cashier 5 took Client 2
+2017-11-20 21:49:20.067 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:49:20.068 [main] INFO  by.training.model.Restaurant - Cashier 6 took Client 3
+2017-11-20 21:49:20.068 [main] INFO  by.training.model.Restaurant - Cashier 7 took Client 5
+2017-11-20 21:49:20.068 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 4 in process.
+2017-11-20 21:49:20.068 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 5 in process.
+2017-11-20 21:49:20.068 [main] INFO  by.training.model.Restaurant - Cashier 8 took Client 6
+2017-11-20 21:49:20.068 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 6 in process.
+2017-11-20 21:49:20.068 [main] INFO  by.training.model.Restaurant - Cashier 9 took Client 8
+2017-11-20 21:49:20.069 [main] INFO  by.training.model.Restaurant - Cashier 10 took Client 9
+2017-11-20 21:49:20.068 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 7 in process.
+2017-11-20 21:49:20.069 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 8 in process.
+2017-11-20 21:49:20.069 [main] INFO  by.training.model.Restaurant - Cashier 11 took Client 11
+2017-11-20 21:49:20.069 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 9 in process.
+2017-11-20 21:49:20.069 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 10 in process.
+2017-11-20 21:49:20.070 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 11 in process.
+2017-11-20 21:49:20.091 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 21:49:20.091 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 21:49:20.091 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:49:20.091 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 7 is free.
+2017-11-20 21:49:20.122 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 21:49:20.122 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 11 is free.
+2017-11-20 21:49:20.212 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 21:49:20.212 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 5 is free.
+2017-11-20 21:49:20.216 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 21:49:20.216 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:49:20.258 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 21:49:20.258 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 10 is free.
+2017-11-20 21:49:20.309 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 21:49:20.309 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 6 is free.
+2017-11-20 21:49:20.318 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 21:49:20.318 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 4 is free.
+2017-11-20 21:49:20.329 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 21:49:20.334 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 9 is free.
+2017-11-20 21:49:20.338 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 21:49:20.338 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 8 is free.
+2017-11-20 21:49:20.341 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 21:49:20.341 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:49:23.362 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:50:14.815 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:50:14.820 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:50:14.820 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:50:14.820 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 21:50:14.820 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9 (preOrder) comes to restaurant.
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10  comes to restaurant.
+2017-11-20 21:50:14.821 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11 (preOrder) comes to restaurant.
+2017-11-20 21:50:14.822 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 21:50:14.822 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 21:50:14.822 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:14.822 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:50:14.823 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:15.106 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 21:50:15.106 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 21:50:15.106 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:15.106 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:50:15.106 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 7
+2017-11-20 21:50:15.106 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 9
+2017-11-20 21:50:15.108 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:50:15.114 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:15.116 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 21:50:15.116 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:15.116 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 11
+2017-11-20 21:50:15.117 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:15.266 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 21:50:15.266 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:15.266 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 2
+2017-11-20 21:50:15.266 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:15.268 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 21:50:15.268 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:50:15.268 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 21:50:15.268 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:50:15.375 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 21:50:15.375 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:15.375 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 6
+2017-11-20 21:50:15.375 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:15.492 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 21:50:15.492 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:15.492 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 8
+2017-11-20 21:50:15.492 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:15.494 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 21:50:15.494 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:15.494 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 10
+2017-11-20 21:50:15.494 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:15.524 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 21:50:15.524 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:50:15.568 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 21:50:15.568 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:15.681 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 21:50:15.681 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:18.118 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 21:50:21.610 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 21:50:21.614 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 21:50:21.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 21:50:21.615 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 1
+2017-11-20 21:50:21.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 21:50:21.615 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 21:50:21.616 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 21:50:21.616 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 21:50:21.616 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 21:50:21.616 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 21:50:21.617 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9 (preOrder) comes to restaurant.
+2017-11-20 21:50:21.617 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 3
+2017-11-20 21:50:21.617 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10  comes to restaurant.
+2017-11-20 21:50:21.617 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:21.617 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11 (preOrder) comes to restaurant.
+2017-11-20 21:50:21.617 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 5
+2017-11-20 21:50:21.617 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:50:21.617 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:21.635 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 21:50:21.635 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:21.635 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 7
+2017-11-20 21:50:21.635 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:21.647 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 21:50:21.647 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 9
+2017-11-20 21:50:21.647 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:21.648 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:21.680 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 21:50:21.680 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:50:21.680 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 11
+2017-11-20 21:50:21.680 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:50:21.841 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 21:50:21.841 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:21.841 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 2
+2017-11-20 21:50:21.842 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 21:50:21.882 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 21:50:21.882 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 4
+2017-11-20 21:50:21.882 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:50:21.884 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 21:50:21.901 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 21:50:21.901 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:21.901 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 6
+2017-11-20 21:50:21.901 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:21.925 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 21:50:21.925 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 8
+2017-11-20 21:50:21.925 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:21.926 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:21.964 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 21:50:21.964 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:21.964 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 10
+2017-11-20 21:50:21.964 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 21:50:22.022 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 21:50:22.022 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 21:50:22.105 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 21:50:22.105 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 21:50:22.169 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 21:50:22.169 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 21:50:24.912 [main] INFO  by.training.model.Restaurant - Restaurant closes.
+2017-11-20 22:00:37.680 [main] INFO  by.training.model.Restaurant - Restaurant opens.
+2017-11-20 22:00:37.686 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 1  comes to restaurant.
+2017-11-20 22:00:37.687 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 2  comes to restaurant.
+2017-11-20 22:00:37.687 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 3 (preOrder) comes to restaurant.
+2017-11-20 22:00:37.688 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 3
+2017-11-20 22:00:37.689 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 4  comes to restaurant.
+2017-11-20 22:00:37.689 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 5 (preOrder) comes to restaurant.
+2017-11-20 22:00:37.689 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 6  comes to restaurant.
+2017-11-20 22:00:37.689 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 7 (preOrder) comes to restaurant.
+2017-11-20 22:00:37.689 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 8  comes to restaurant.
+2017-11-20 22:00:37.690 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 9 (preOrder) comes to restaurant.
+2017-11-20 22:00:37.691 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 10  comes to restaurant.
+2017-11-20 22:00:37.691 [pool-2-thread-1] INFO  by.training.model.RestaurantLine - Client 11 (preOrder) comes to restaurant.
+2017-11-20 22:00:37.691 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 5
+2017-11-20 22:00:37.692 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 7
+2017-11-20 22:00:37.694 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 22:00:37.697 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 22:00:37.698 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 22:00:37.732 [pool-5-thread-1] INFO  by.training.model.CashierTask - Client 7 leaves restaurant.
+2017-11-20 22:00:37.732 [pool-5-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 22:00:37.732 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 9
+2017-11-20 22:00:37.737 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 22:00:37.878 [pool-3-thread-1] INFO  by.training.model.CashierTask - Client 3 leaves restaurant.
+2017-11-20 22:00:37.878 [pool-3-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 22:00:37.878 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 11
+2017-11-20 22:00:37.879 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 22:00:37.891 [pool-6-thread-1] INFO  by.training.model.CashierTask - Client 9 leaves restaurant.
+2017-11-20 22:00:37.891 [pool-6-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 22:00:37.891 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 1
+2017-11-20 22:00:37.893 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 22:00:37.902 [pool-7-thread-1] INFO  by.training.model.CashierTask - Client 11 leaves restaurant.
+2017-11-20 22:00:37.902 [pool-7-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 22:00:37.902 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 2
+2017-11-20 22:00:37.903 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 22:00:37.969 [pool-8-thread-1] INFO  by.training.model.CashierTask - Client 1 leaves restaurant.
+2017-11-20 22:00:37.969 [pool-8-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 22:00:37.969 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 4
+2017-11-20 22:00:37.969 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 22:00:37.991 [pool-4-thread-1] INFO  by.training.model.CashierTask - Client 5 leaves restaurant.
+2017-11-20 22:00:37.991 [pool-4-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 22:00:37.991 [main] INFO  by.training.model.Restaurant - Cashier 2 took Client 6
+2017-11-20 22:00:37.991 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 2 in process.
+2017-11-20 22:00:37.998 [pool-10-thread-1] INFO  by.training.model.CashierTask - Client 4 leaves restaurant.
+2017-11-20 22:00:37.998 [pool-10-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 22:00:37.998 [main] INFO  by.training.model.Restaurant - Cashier 3 took Client 8
+2017-11-20 22:00:37.998 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 in process.
+2017-11-20 22:00:38.110 [pool-9-thread-1] INFO  by.training.model.CashierTask - Client 2 leaves restaurant.
+2017-11-20 22:00:38.110 [pool-9-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 22:00:38.110 [main] INFO  by.training.model.Restaurant - Cashier 1 took Client 10
+2017-11-20 22:00:38.110 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 1 in process.
+2017-11-20 22:00:38.197 [pool-11-thread-1] INFO  by.training.model.CashierTask - Client 6 leaves restaurant.
+2017-11-20 22:00:38.197 [pool-11-thread-1] INFO  by.training.model.CashierTask - Cashier 2 is free.
+2017-11-20 22:00:38.216 [pool-12-thread-1] INFO  by.training.model.CashierTask - Client 8 leaves restaurant.
+2017-11-20 22:00:38.216 [pool-12-thread-1] INFO  by.training.model.CashierTask - Cashier 3 is free.
+2017-11-20 22:00:38.364 [pool-13-thread-1] INFO  by.training.model.CashierTask - Client 10 leaves restaurant.
+2017-11-20 22:00:38.364 [pool-13-thread-1] INFO  by.training.model.CashierTask - Cashier 1 is free.
+2017-11-20 22:00:40.984 [main] INFO  by.training.model.Restaurant - Restaurant closes.
