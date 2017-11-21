@@ -22,9 +22,11 @@ public class Restaurant {
 
     private final Lock LOCK = new ReentrantLock(true);
 
+    //[YY] if you need a comment to make it clear it is better to rename this field like OPEN_HOURS
     /* WORKING_TIME guarantees service of all clients */
     private final int WORKING_TIME;
 
+    //[YY] You don't need it here as well as in CashierTask
     private static PropertyReader reader;
 
     private Queue<Cashier> cashierList;
@@ -32,6 +34,7 @@ public class Restaurant {
     private RestaurantLine line;
 
     public Restaurant() throws RestaurantException {
+        //[YY] It should go away
         try {
             reader = PropertyReader.getInstance();
         } catch (PropertyReaderException e) {
