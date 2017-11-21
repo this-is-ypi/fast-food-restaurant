@@ -19,6 +19,7 @@ public class CashierTask implements Runnable {
 
     private final Lock LOCK = new ReentrantLock(true);
 
+    //[YY] you don't need it since you can get access to singletone from any point in code
     private PropertyReader reader;
 
     private Queue<Cashier> cashierQueue;
@@ -28,6 +29,7 @@ public class CashierTask implements Runnable {
     private final int clientId;
 
     public CashierTask(Queue<Cashier> cashierQueue, Cashier cashier, int clientId) throws RestaurantException {
+        //[YY] so it is redundunt too
         try {
             reader = PropertyReader.getInstance();
         } catch (PropertyReaderException e) {
