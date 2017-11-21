@@ -1,7 +1,7 @@
 package by.training.model;
 
 import by.training.model.entity.Cashier;
-import by.training.model.exception.RestaurantException;
+import by.training.model.entity.Client;
 import by.training.reader.PropertyReader;
 import by.training.reader.exception.PropertyReaderException;
 import org.apache.logging.log4j.LogManager;
@@ -13,37 +13,42 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Represents cashier-client dialog.
+ */
 public class CashierTask implements Runnable {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
     private final Lock LOCK = new ReentrantLock(true);
 
-    private PropertyReader reader;
-
     private Queue<Cashier> cashierQueue;
 
     private Cashier cashier;
 
-    private final int clientId;
+    private Client client;
 
-    public CashierTask(Queue<Cashier> cashierQueue, Cashier cashier, int clientId) throws RestaurantException {
-        try {
-            reader = PropertyReader.getInstance();
-        } catch (PropertyReaderException e) {
-            throw new RestaurantException(e.getMessage(), e.getCause());
-        }
+    public CashierTask(Queue<Cashier> cashierQueue, Cashier cashier, Client client) {
         this.cashierQueue = cashierQueue;
         this.cashier = cashier;
-        this.clientId = clientId;
+        this.client = client;
     }
 
+    /**
+     * Simulates process of client servicing.
+     * After it's done, returns cashier in cashier queue.
+     */
     @Override
     public void run() {
         LOGGER.info("Cashier " + cashier.getId() + " in process.");
         try {
-            TimeUnit.MILLISECONDS.sleep(new Random().nextInt(reader.getCashierWorkTime()));
-            LOGGER.info("Client " + clientId + " leaves restaurant.");
+            int cashierWorkTime = PropertyReader.getInstance().getCashierWorkTime();
+            TimeUnit.MILLISECONDS.sleep(new Random().nextInt(cashierWorkTime));
+            client.changeState();
+
+            int clientId = client.getId();
+            int cashierId = cashier.getId();
+            LOGGER.info("Client " + clientId + " leaves Cashier " + cashierId + " with food.");
 
             LOCK.lock();
             try {
@@ -52,7 +57,7 @@ public class CashierTask implements Runnable {
             } finally {
                 LOCK.unlock();
             }
-        } catch (InterruptedException e) {
+        } catch (InterruptedException | PropertyReaderException e) {
             e.printStackTrace();
         }
     }
