@@ -1,9 +1,8 @@
 package by.training.model;
 
 import by.training.model.entity.Client;
-import by.training.model.exception.RestaurantException;
+import by.training.model.entity.clientState.ClientWithoutFoodState;
 import by.training.reader.PropertyReader;
-import by.training.reader.exception.PropertyReaderException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,24 +10,45 @@ import java.util.*;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Represents restaurant line. Line can contain
+ * usual client and pre-order clients as well.
+ */
 public class RestaurantLine implements Runnable {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
     private final Lock LOCK = new ReentrantLock(true);
 
-    private PropertyReader reader;
-
     private Queue<Client> usualLine;
 
     private Queue<Client> preOrderLine;
 
-    public RestaurantLine() throws RestaurantException {
-        initLine();
+    public RestaurantLine() {
+        usualLine = new LinkedList<>();
+        preOrderLine = new LinkedList<>();
     }
 
+    /**
+     * Generates clients with random pre-order value
+     * and adds them to the line.
+     */
+    @Override
     public void run() {
-        generateClients();
+        int clientNumber = PropertyReader.getInstance().getTotalClientNumber();
+        Random random = new Random();
+
+        for (int i = 0; i < clientNumber; i++) {
+            LOCK.lock();
+            try {
+                Client client = new Client(i + 1,
+                        random.nextBoolean(),
+                        new ClientWithoutFoodState());
+                addClientInLine(client);
+            } finally {
+                LOCK.unlock();
+            }
+        }
     }
 
     public boolean hasNextClient() {
@@ -57,56 +77,12 @@ public class RestaurantLine implements Runnable {
         return nextClient;
     }
 
-    private void initLine() throws RestaurantException {
-        try {
-            reader = PropertyReader.getInstance();
-        } catch (PropertyReaderException e) {
-            throw new RestaurantException(e.getMessage(), e.getCause());
-        }
-
-        usualLine = new LinkedList<>();
-        preOrderLine = new LinkedList<>();
-    }
-
-    private void generateClients() {
-        final int clientNumber = reader.getTotalClientNumber();
-        final int preOrderClientNumber = reader.getPreOrderClientNumber();
-
-        final int eachPreOrder;
-        if (preOrderClientNumber > clientNumber) {
-            eachPreOrder = 1;
-        } else {
-            if (preOrderClientNumber <= 0) {
-                eachPreOrder = clientNumber;
-            } else {
-                eachPreOrder = clientNumber / preOrderClientNumber;
-            }
-        }
-
-        for (int i = 0; i < clientNumber; i++) {
-            Client client = new Client(i + 1);
-
-            LOCK.lock();
-            try {
-                if (i != 0 && (i % eachPreOrder) == 0) {
-                    client.setPreOrder(true);
-                } else {
-                    client.setPreOrder(false);
-                }
-
-                addClientInLine(client);
-            } finally {
-                LOCK.unlock();
-            }
-        }
-    }
-
     private void addClientInLine(Client client) {
         LOCK.lock();
         try {
             if (client.isPreOrder()) {
                 preOrderLine.add(client);
-                LOGGER.info("Client " + client.getId() + " (preOrder) comes to restaurant.");
+                LOGGER.info("Client " + client.getId() + " (pre-order) comes to restaurant.");
             } else {
                 usualLine.add(client);
                 LOGGER.info("Client " + client.getId() + "  comes to restaurant.");

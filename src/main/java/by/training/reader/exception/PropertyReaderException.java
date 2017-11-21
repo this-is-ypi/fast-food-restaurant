@@ -1,6 +1,6 @@
 package by.training.reader.exception;
 
-public class PropertyReaderException extends Exception {
+public class PropertyReaderException extends RuntimeException {
 
     public PropertyReaderException() {
         super();
