@@ -10,7 +10,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -25,38 +24,35 @@ public class Restaurant {
 
     private final Lock LOCK = new ReentrantLock(true);
 
-    private final int WORKING_TIME;
-
     private Queue<Cashier> cashierList;
 
-    private RestaurantLine line;
+    private RestaurantLine line = new RestaurantLine();
 
     public Restaurant() {
-        int totalClientNumber = PropertyReader.getInstance().getTotalClientNumber();
-        int cashierWorkTime = PropertyReader.getInstance().getCashierWorkTime();
-        WORKING_TIME = totalClientNumber * cashierWorkTime;
-
-        line = new RestaurantLine();
-
         initCashier();
     }
 
     /**
-     * Creates Thread of RestaurantLine and executes it.
-     * In parallel of line thread this method starts
+     * Executes Restaurant line as a thread.
+     * In parallel of restaurant line thread this method starts
      * executing of CashierTasks.
-     * Method ends it's execution on WORKING_TIME expired.
+     * Method ends it's execution on working time expired.
      * It guarantees all clients are serviced.
      */
     public void startRestaurant() {
+
         LOGGER.info("Restaurant opens.");
 
         ExecutorService lineExecutor = Executors.newSingleThreadExecutor();
         lineExecutor.execute(line);
         lineExecutor.shutdown();
 
+        int totalClientNumber = PropertyReader.getInstance().getTotalClientNumber();
+        int cashierWorkTime = PropertyReader.getInstance().getCashierWorkTime();
+        int workingTime = totalClientNumber * cashierWorkTime;
+
         long startTime = System.currentTimeMillis();
-        while (System.currentTimeMillis() - startTime < WORKING_TIME) {
+        while (System.currentTimeMillis() - startTime < workingTime) {
 
             LOCK.lock();
             try {
