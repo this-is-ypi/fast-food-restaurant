@@ -11,6 +11,10 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Reader of properties file witch contains data for
+ * initializing restaurant application.
+ */
 public class PropertyReader {
 
     private static final Logger LOGGER = LogManager.getLogger();
@@ -29,7 +33,7 @@ public class PropertyReader {
         initProperties();
     }
 
-    public static PropertyReader getInstance() throws PropertyReaderException{
+    public static PropertyReader getInstance() {
         if (!isInitialized.get()) {
             LOCK.lock();
             try {
@@ -51,15 +55,11 @@ public class PropertyReader {
         return Integer.valueOf(properties.getProperty(PropertyEnum.TOTAL_CLIENT_NUMBER.name()));
     }
 
-    public int getPreOrderClientNumber() {
-        return Integer.valueOf(properties.getProperty(PropertyEnum.PRE_ORDER_CLIENT_NUMBER.name()));
-    }
-
     public int getCashierWorkTime() {
         return Integer.valueOf(properties.getProperty(PropertyEnum.CASHIER_WORK_TIME.name()));
     }
 
-    private void initProperties() throws PropertyReaderException {
+    private void initProperties() {
         InputStream inputStream = PropertyReader.class
                 .getClassLoader()
                 .getResourceAsStream(APPLICATION_CONFIG_PROPERTIES);
@@ -72,6 +72,7 @@ public class PropertyReader {
         try {
             properties.load(inputStream);
         } catch (IOException e) {
+            LOGGER.error("Exception while reading file.");
             throw new PropertyReaderException(e.getMessage(), e.getCause());
         }
     }
