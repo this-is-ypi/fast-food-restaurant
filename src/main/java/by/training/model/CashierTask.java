@@ -43,7 +43,9 @@ public class CashierTask implements Runnable {
         LOGGER.info("Cashier " + cashier.getId() + " in process.");
         try {
             int cashierWorkTime = PropertyReader.getInstance().getCashierWorkTime();
-            TimeUnit.MILLISECONDS.sleep(new Random().nextInt(cashierWorkTime));
+            Random random = new Random();
+            int sleepTime = random.nextInt(cashierWorkTime);
+            TimeUnit.MILLISECONDS.sleep(sleepTime);
             client.changeState();
 
             int clientId = client.getId();
@@ -57,7 +59,7 @@ public class CashierTask implements Runnable {
             } finally {
                 LOCK.unlock();
             }
-        } catch (InterruptedException | PropertyReaderException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }

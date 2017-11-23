@@ -79,13 +79,14 @@ public class RestaurantLine implements Runnable {
 
     private void addClientInLine(Client client) {
         LOCK.lock();
+        int clientId = client.getId();
         try {
             if (client.isPreOrder()) {
                 preOrderLine.add(client);
-                LOGGER.info("Client " + client.getId() + " (pre-order) comes to restaurant.");
+                LOGGER.info("Client " + clientId + " (pre-order) comes to restaurant.");
             } else {
                 usualLine.add(client);
-                LOGGER.info("Client " + client.getId() + "  comes to restaurant.");
+                LOGGER.info("Client " + clientId + "  comes to restaurant.");
             }
         } finally {
             LOCK.unlock();

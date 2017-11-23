@@ -63,7 +63,6 @@ public class Restaurant {
 
                     int freeCashierId = freeCashier.getId();
                     int nextClientId = nextClient.getId();
-
                     LOGGER.info("Cashier " + freeCashierId + " took Client " + nextClientId);
 
                     ExecutorService cashierExecutor = Executors.newSingleThreadExecutor();
