@@ -3,7 +3,6 @@ package by.training.model;
 import by.training.model.entity.Cashier;
 import by.training.model.entity.Client;
 import by.training.reader.PropertyReader;
-import by.training.reader.exception.PropertyReaderException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -42,7 +41,8 @@ public class CashierTask implements Runnable {
     public void run() {
         LOGGER.info("Cashier " + cashier.getId() + " in process.");
         try {
-            int cashierWorkTime = PropertyReader.getInstance().getCashierWorkTime();
+            PropertyReader reader = PropertyReader.getInstance();
+            int cashierWorkTime = reader.getCashierWorkTime();
             Random random = new Random();
             int sleepTime = random.nextInt(cashierWorkTime);
             TimeUnit.MILLISECONDS.sleep(sleepTime);

@@ -35,7 +35,8 @@ public class RestaurantLine implements Runnable {
      */
     @Override
     public void run() {
-        int clientNumber = PropertyReader.getInstance().getTotalClientNumber();
+        PropertyReader reader = PropertyReader.getInstance();
+        int clientNumber = reader.getTotalClientNumber();
         Random random = new Random();
 
         for (int i = 0; i < clientNumber; i++) {

@@ -47,8 +47,9 @@ public class Restaurant {
         lineExecutor.execute(line);
         lineExecutor.shutdown();
 
-        int totalClientNumber = PropertyReader.getInstance().getTotalClientNumber();
-        int cashierWorkTime = PropertyReader.getInstance().getCashierWorkTime();
+        PropertyReader reader = PropertyReader.getInstance();
+        int totalClientNumber = reader.getTotalClientNumber();
+        int cashierWorkTime = reader.getCashierWorkTime();
         int workingTime = totalClientNumber * cashierWorkTime;
 
         long startTime = System.currentTimeMillis();
@@ -78,7 +79,8 @@ public class Restaurant {
 
     private void initCashier() {
         cashierList = new LinkedList<>();
-        int cashierNumber = PropertyReader.getInstance().getCashierNumber();
+        PropertyReader reader = PropertyReader.getInstance();
+        int cashierNumber = reader.getCashierNumber();
         for (int i = 0; i < cashierNumber; i++) {
             cashierList.add(new Cashier(i + 1));
         }
