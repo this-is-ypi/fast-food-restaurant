@@ -21,11 +21,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Restaurant {
 
     private static final Logger LOGGER = LogManager.getLogger();
-
     private final Lock LOCK = new ReentrantLock(true);
-
     private Queue<Cashier> cashierList;
-
     private RestaurantLine line = new RestaurantLine();
 
     public Restaurant() {

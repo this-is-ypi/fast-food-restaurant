@@ -19,15 +19,10 @@ import java.util.concurrent.locks.ReentrantLock;
 public class PropertyReader {
 
     private static final Logger LOGGER = LogManager.getLogger();
-
     private static final Lock LOCK = new ReentrantLock(true);
-
     private static final String FILE_NAME = "src/main/resources/applicationConfig.properties";
-
     private static PropertyReader reader;
-
     private static AtomicBoolean isInitialized = new AtomicBoolean(false);
-
     private Properties properties;
 
     private PropertyReader() throws PropertyReaderException {

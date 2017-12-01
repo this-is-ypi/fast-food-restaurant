@@ -18,13 +18,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class CashierTask implements Runnable {
 
     private static final Logger LOGGER = LogManager.getLogger();
-
     private final Lock LOCK = new ReentrantLock(true);
-
     private Queue<Cashier> cashierQueue;
-
     private Cashier cashier;
-
     private Client client;
 
     public CashierTask(Queue<Cashier> cashierQueue, Cashier cashier, Client client) {

@@ -1,13 +1,11 @@
 package by.training.model.entity;
 
-import by.training.model.entity.clientState.ClientState;
+import by.training.model.entity.state.ClientState;
 
 public class Client {
 
     private int id;
-
     private boolean preOrder;
-
     private ClientState state;
 
     public Client(int id, boolean preOrder, ClientState state) {

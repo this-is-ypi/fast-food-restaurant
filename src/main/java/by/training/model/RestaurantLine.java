@@ -1,7 +1,7 @@
 package by.training.model;
 
 import by.training.model.entity.Client;
-import by.training.model.entity.clientState.ClientWithoutFoodState;
+import by.training.model.entity.state.ClientWithoutFoodState;
 import by.training.reader.PropertyReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,11 +17,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class RestaurantLine implements Runnable {
 
     private static final Logger LOGGER = LogManager.getLogger();
-
     private final Lock LOCK = new ReentrantLock(true);
-
     private Queue<Client> usualLine;
-
     private Queue<Client> preOrderLine;
 
     public RestaurantLine() {
