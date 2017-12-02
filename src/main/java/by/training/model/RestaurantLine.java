@@ -53,7 +53,9 @@ public class RestaurantLine implements Runnable {
     public boolean hasNextClient() {
         LOCK.lock();
         try {
-            return (usualLine.size() > 0) || (preOrderLine.size() > 0);
+            int usualClientsInLine = usualLine.size();
+            int preOrderClientInLine = preOrderLine.size();
+            return (preOrderClientInLine > 0 || usualClientsInLine > 0);
         } finally {
             LOCK.unlock();
         }

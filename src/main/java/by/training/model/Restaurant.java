@@ -48,20 +48,23 @@ public class Restaurant {
 
         int totalClientNumber = holder.getTotalClientNumber();
         int cashierWorkTime = holder.getCashierWorkTime();
-        int workingTime = totalClientNumber * cashierWorkTime;
+        int timeToWork = totalClientNumber * cashierWorkTime;
 
         long startTime = System.currentTimeMillis();
-        while (System.currentTimeMillis() - startTime < workingTime) {
+        long workingTime = 0;
 
+        while (workingTime < timeToWork) {
             LOCK.lock();
             try {
-                if (line.hasNextClient() && cashierList.size() > 0) {
+                int cashierNumber = cashierList.size();
+                if (line.hasNextClient() && cashierNumber > 0) {
 
                     Cashier freeCashier = cashierList.poll();
-                    Client nextClient = line.getClient();
-
                     int freeCashierId = freeCashier.getId();
+
+                    Client nextClient = line.getClient();
                     int nextClientId = nextClient.getId();
+
                     LOGGER.info("Cashier " + freeCashierId + " took Client " + nextClientId);
 
                     ExecutorService cashierExecutor = Executors.newSingleThreadExecutor();
@@ -75,6 +78,8 @@ public class Restaurant {
             } finally {
                 LOCK.unlock();
             }
+
+            workingTime = System.currentTimeMillis() - startTime;
         }
         LOGGER.info("Restaurant closes.");
     }
