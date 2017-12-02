@@ -20,13 +20,10 @@ public class PropertyReader {
 
     private static final Logger LOGGER = LogManager.getLogger();
     private static final Lock LOCK = new ReentrantLock(true);
-    private static final String FILE_NAME = "src/main/resources/applicationConfig.properties";
     private static PropertyReader reader;
     private static AtomicBoolean isInitialized = new AtomicBoolean(false);
-    private Properties properties;
 
-    private PropertyReader() throws PropertyReaderException {
-        initProperties();
+    private PropertyReader() {
     }
 
     public static PropertyReader getInstance() {
@@ -44,29 +41,13 @@ public class PropertyReader {
         return reader;
     }
 
-    public int getCashierNumber() {
-        String cashierNumber = PropertyEnum.CASHIER_NUMBER.name();
-        String cashierNumberValue = properties.getProperty(cashierNumber);
-        return Integer.valueOf(cashierNumberValue);
-    }
-
-    public int getTotalClientNumber() {
-        String totalClientNumber = PropertyEnum.TOTAL_CLIENT_NUMBER.name();
-        String totalClientNumberValue = properties.getProperty(totalClientNumber);
-        return Integer.valueOf(totalClientNumberValue);
-    }
-
-    public int getCashierWorkTime() {
-        String cashierWorkTime = PropertyEnum.CASHIER_WORK_TIME.name();
-        String cashierWorkTimeValue = properties.getProperty(cashierWorkTime);
-        return Integer.valueOf(cashierWorkTimeValue);
-    }
-
-    private void initProperties() {
-
-        properties = new Properties();
+    public Properties initProperties(String fileName) {
+        Properties properties = new Properties();
         try {
-            properties.load(new FileReader(new File(FILE_NAME)));
+            File file = new File(fileName);
+            FileReader fileReader = new FileReader(file);
+            properties.load(fileReader);
+            return properties;
         } catch (IOException e) {
             LOGGER.error("Exception while reading file.");
             throw new PropertyReaderException(e.getMessage(), e.getCause());

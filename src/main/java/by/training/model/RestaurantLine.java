@@ -2,11 +2,12 @@ package by.training.model;
 
 import by.training.model.entity.Client;
 import by.training.model.entity.state.ClientWithoutFoodState;
-import by.training.reader.PropertyReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Random;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -20,8 +21,10 @@ public class RestaurantLine implements Runnable {
     private final Lock LOCK = new ReentrantLock(true);
     private Queue<Client> usualLine;
     private Queue<Client> preOrderLine;
+    private int totalClientNumber;
 
-    public RestaurantLine() {
+    public RestaurantLine(int totalClientNumber) {
+        this.totalClientNumber = totalClientNumber;
         usualLine = new LinkedList<>();
         preOrderLine = new LinkedList<>();
     }
@@ -32,11 +35,9 @@ public class RestaurantLine implements Runnable {
      */
     @Override
     public void run() {
-        PropertyReader reader = PropertyReader.getInstance();
-        int clientNumber = reader.getTotalClientNumber();
         Random random = new Random();
 
-        for (int i = 0; i < clientNumber; i++) {
+        for (int i = 0; i < totalClientNumber; i++) {
             LOCK.lock();
             try {
                 Client client = new Client(i + 1,

@@ -2,7 +2,7 @@ package by.training.model;
 
 import by.training.model.entity.Cashier;
 import by.training.model.entity.Client;
-import by.training.reader.PropertyReader;
+import by.training.reader.PropertyHolder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -23,10 +23,12 @@ public class Restaurant {
     private static final Logger LOGGER = LogManager.getLogger();
     private final Lock LOCK = new ReentrantLock(true);
     private Queue<Cashier> cashierList;
-    private RestaurantLine line = new RestaurantLine();
+    private RestaurantLine line;
+    private PropertyHolder holder;
 
-    public Restaurant() {
-        initCashier();
+    public Restaurant(PropertyHolder holder) {
+        this.holder = holder;
+        init();
     }
 
     /**
@@ -44,9 +46,8 @@ public class Restaurant {
         lineExecutor.execute(line);
         lineExecutor.shutdown();
 
-        PropertyReader reader = PropertyReader.getInstance();
-        int totalClientNumber = reader.getTotalClientNumber();
-        int cashierWorkTime = reader.getCashierWorkTime();
+        int totalClientNumber = holder.getTotalClientNumber();
+        int cashierWorkTime = holder.getCashierWorkTime();
         int workingTime = totalClientNumber * cashierWorkTime;
 
         long startTime = System.currentTimeMillis();
@@ -64,7 +65,11 @@ public class Restaurant {
                     LOGGER.info("Cashier " + freeCashierId + " took Client " + nextClientId);
 
                     ExecutorService cashierExecutor = Executors.newSingleThreadExecutor();
-                    cashierExecutor.execute(new CashierTask(cashierList, freeCashier, nextClient));
+                    CashierTask task = new CashierTask(cashierList,
+                            freeCashier,
+                            nextClient,
+                            cashierWorkTime);
+                    cashierExecutor.execute(task);
                     cashierExecutor.shutdown();
                 }
             } finally {
@@ -74,10 +79,11 @@ public class Restaurant {
         LOGGER.info("Restaurant closes.");
     }
 
-    private void initCashier() {
+    private void init() {
+        line = new RestaurantLine(holder.getTotalClientNumber());
+
         cashierList = new LinkedList<>();
-        PropertyReader reader = PropertyReader.getInstance();
-        int cashierNumber = reader.getCashierNumber();
+        int cashierNumber = holder.getCashierNumber();
         for (int i = 0; i < cashierNumber; i++) {
             cashierList.add(new Cashier(i + 1));
         }

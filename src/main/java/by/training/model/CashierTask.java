@@ -2,7 +2,6 @@ package by.training.model;
 
 import by.training.model.entity.Cashier;
 import by.training.model.entity.Client;
-import by.training.reader.PropertyReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -22,11 +21,16 @@ public class CashierTask implements Runnable {
     private Queue<Cashier> cashierQueue;
     private Cashier cashier;
     private Client client;
+    private int cashierWorkTime;
 
-    public CashierTask(Queue<Cashier> cashierQueue, Cashier cashier, Client client) {
+    public CashierTask(Queue<Cashier> cashierQueue,
+                       Cashier cashier,
+                       Client client,
+                       int cashierWorkTime) {
         this.cashierQueue = cashierQueue;
         this.cashier = cashier;
         this.client = client;
+        this.cashierWorkTime = cashierWorkTime;
     }
 
     /**
@@ -37,8 +41,6 @@ public class CashierTask implements Runnable {
     public void run() {
         LOGGER.info("Cashier " + cashier.getId() + " in process.");
         try {
-            PropertyReader reader = PropertyReader.getInstance();
-            int cashierWorkTime = reader.getCashierWorkTime();
             Random random = new Random();
             int sleepTime = random.nextInt(cashierWorkTime);
             TimeUnit.MILLISECONDS.sleep(sleepTime);

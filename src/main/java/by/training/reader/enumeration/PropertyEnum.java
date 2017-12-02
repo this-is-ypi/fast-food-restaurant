@@ -1,4 +1,4 @@
-package by.training.reader;
+package by.training.reader.enumeration;
 
 public enum PropertyEnum {
     CASHIER_NUMBER,
