@@ -12,6 +12,9 @@ public class ClientWithFoodState implements ClientState {
     private static ClientWithFoodState instance = null;
     private static AtomicBoolean isInitialized = new AtomicBoolean(false);
 
+    private ClientWithFoodState(){
+    }
+
     public static ClientWithFoodState getInstance() {
         if (!isInitialized.get()) {
             LOCK.lock();

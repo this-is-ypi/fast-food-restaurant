@@ -1,6 +1,7 @@
 package by.training.model;
 
 import by.training.model.entity.Client;
+import by.training.model.entity.state.ClientState;
 import by.training.model.entity.state.ClientWithoutFoodState;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -40,9 +41,9 @@ public class RestaurantLine implements Runnable {
         for (int i = 0; i < totalClientNumber; i++) {
             LOCK.lock();
             try {
-                Client client = new Client(i + 1,
-                        random.nextBoolean(),
-                        new ClientWithoutFoodState());
+                boolean preOrder = random.nextBoolean();
+                ClientState state = ClientWithoutFoodState.getInstance();
+                Client client = new Client(i + 1, preOrder, state);
                 addClientInLine(client);
             } finally {
                 LOCK.unlock();
